@@ -1,0 +1,124 @@
+.mainContainer {
+  margin-top: 10px;
+}
+
+.bannerContent {
+  position: absolute;
+  width: 100%;
+}
+
+.PARBtn_Link {
+  text-decoration: none;
+  margin-top: 0px;
+}
+
+.ActionButton {
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.firstHeading {
+  width: 80%;
+  padding-top: 20px;
+  margin: auto;
+  margin-top: 9%;
+  color: white;
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+}
+.Heading {
+  width: 100%;
+  margin: auto;
+  color: white;
+  font-size: 25px;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  font-weight: 400;
+}
+
+.secondHeading {
+  font-size: 20px;
+  margin: auto;
+  color: #FCD017;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.imageBanner {
+  display: none;
+}
+.imageBannermob {
+  width: 100%;
+  max-height: 400px;
+  display: block;
+}
+
+@media screen and (min-width: 1023px) {
+
+  .mainContainer {
+    width: 100%
+  }
+
+  .firstHeading {
+    width: 100%;
+    font-size: 45px;
+    padding-top: 20px;
+    margin-top: 4%;
+  }
+  .Heading {
+    font-size: 50px;
+  }
+
+  .bannerContent {
+    width: 100%;
+  }
+
+  .secondHeading {
+    font-size: 40px;
+    margin-top: 0%;
+
+  }
+  .imageBanner {
+   
+
+    display: block;
+  }
+  .imageBannermob {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .firstHeading {
+    width: 100%;
+    margin-top: 6%;
+  }
+
+}
+
+@media screen and (min-width: 1366px) {
+  .firstHeading {
+    width: 100%;
+    font-size: 60px;
+    margin-top: 5%;
+  }
+  .Heading {
+    font-size: 60px;
+  }
+  .secondHeading {
+    font-size: 50px;
+    margin-top: 1%;
+
+  }
+
+}

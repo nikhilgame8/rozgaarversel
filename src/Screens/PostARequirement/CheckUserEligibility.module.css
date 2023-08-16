@@ -1,0 +1,207 @@
+.PageLayoutContainer {
+  padding: 30px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 12px;
+  flex-direction: column;
+}
+.PageLayoutHeading {
+  color: grey;
+}
+.circleIcon{
+  margin-top: 4px;
+}
+.PageLayoutHeadingBorder {
+  border-bottom: 0.5px solid lightgrey;
+  padding-top: 15px;
+}
+.PageLayoutSecondHeadingContainer {
+  display: flex;
+  padding-top: 20px;
+}
+.SecondHeadingText {
+  font-size: 18px;
+  padding-left: 12px;
+  font-weight: 700;
+}
+.PageLayoutThirdContainer {
+  display: flex;
+}
+.aerrowBack {
+  cursor: pointer;
+}
+.FreeSectionPageLayout {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 29px;
+}
+.FreeSectionContainer {
+  padding-top: 45px;
+}
+.FreeSectionText {
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
+}
+.AmountIconText {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
+}
+.FreeSectionTextSecond {
+  padding-top: 15px;
+  color: grey;
+  font-size: 16px;
+}
+.CheckIconText {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.FreeSectionTextThird {
+  color: #898989;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.thirdSectionContainer {
+  width: 65%;
+  border: 1px solid #2066c2;
+  border-radius: 8px;
+  margin-top: 22px;
+}
+.PaidHeadingFirst {
+  display: flex;
+  justify-content: right;
+  color: #778792;
+  padding: 2px 16px 0px 16px;
+}
+.PaidHeading {
+  font-size: 18px;
+  font-weight: 800;
+  padding: 0px 20px;
+}
+.PaidAmountIconText {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 16px 0px 16px;
+}
+.EditIcon {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #3480b8;
+}
+.PaidSectionPoint {
+  padding-left: 20px;
+}
+.PaidSectionTextSecond {
+  padding-top: 15px;
+  font-size: 16px;
+}
+.PaidSectionTextThird {
+  padding-left: 15px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.PaidButton {
+  padding: 8px 10px;
+  background-color: #1778f2;
+  border-radius: 20px;
+
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.PaidButton:hover {
+  padding: 8px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  
+  text-align: center;
+  color: #1778f2;
+  cursor: pointer;
+  border: 1px solid #1778f2;
+}
+.FreeButton {
+  padding: 8px 10px;
+  border: 1px solid #bfbfbf;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  color: #bfbfbf;
+  cursor: pointer;
+}
+.addOnAmount {
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+  justify-content: space-between;
+}
+.AddOnsHeading {
+  font-size: 18px;
+  font-weight: 800;
+  padding: 20px 0px 0px 0px;
+}
+@media screen and (max-width: 1023px) {
+  .PageLayoutThirdContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .FreeSectionPageLayout {
+    width: 100%;
+  }
+  .FreeSectionContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .thirdSectionContainer {
+    width: 100%;
+    border: 1px solid #2066c2;
+    border-radius: 8px;
+    margin-top: 22px;
+  }
+  .PaidSectionPoint {
+    padding-left: 20px;
+  }
+  .PaidButton {
+    padding: 8px 10px;
+    background-color: #3480b8;
+    border-radius: 20px;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+  .PageLayoutContainer {
+   
+    width: 94%;
+    display: flex;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 12px;
+    flex-direction: column;
+    margin: 15px;
+    padding: 0px;
+  }
+  .PageLayoutSecondHeadingContainer, .FreeSectionPageLayout{
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    visibility: hidden;
+  }
+}

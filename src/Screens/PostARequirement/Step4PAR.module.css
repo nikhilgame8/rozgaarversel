@@ -1,0 +1,227 @@
+.mainContainer {
+  padding: 20px;
+}
+.SignIn_Heading {
+  color: #0c2551;
+}
+.input_fields {
+  display: flex;
+  flex-direction: column;
+}
+.input_container {
+  margin-top: 25px;
+}
+.label {
+  margin: 15px 0px 0px 0px;
+}
+.PopUpText {
+  font-size: 12px;
+  color: rgb(71, 70, 70);
+}
+.pageLoader {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkbox_text {
+  color: #858585;
+  font-size: 13px;
+  margin-left: 4px;
+}
+.CheckBoxInputBox {
+  cursor: pointer;
+}
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 55%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.lableDesign {
+  margin: 15px 0px;
+  font-weight: 800;
+  color: #292e42;
+}
+.CheckboxStyle {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #ece9e9;
+  margin: 7px 0px;
+}
+.CheckBox_Text {
+  padding-left: 28px;
+}
+.CheckBox_RightText {
+  background-color: #292e42;
+  padding: 0px 12px;
+  height: 4vh;
+  margin: -13px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #fff;
+  width: 70px;
+  text-align: center;
+}
+.CheckBoxInput {
+  display: flex;
+}
+.CheckBoxInput_Text {
+  padding-left: 5px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.TotalAmountText {
+  text-align: right;
+  padding: 5px 0px;
+}
+.AmountText {
+  font-weight: bold;
+  font-size: 18px;
+}
+.TermsCondition_Text {
+  margin-top: 20px;
+}
+.PARBtn_Link {
+  text-decoration: none;
+}
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+}
+.Heading_text {
+  margin: 0px;
+}
+.para_text {
+  margin: 4px 1px 15px 1px;
+}
+.inputDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.inputText {
+  width: 40%;
+  margin-right: 20px;
+}
+.budgetCurrency {
+  display: flex;
+  width: 60%;
+}
+.inputArea {
+  padding: 10px 10px;
+  outline: none;
+  width: 40%;
+  border: 1px solid #ece9e9;
+  display: flex;
+
+  margin: 10px 0px;
+  font-size: 18px;
+}
+.curencySymbol{
+  padding-right: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  border-right: 1px solid gray;
+}
+.inputArea:focus {
+  border-color: #1778f2;
+}
+.budgetContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.inputAreaBudget{
+  border: none;
+  width: 90%;
+  font-size: 18px;
+  outline: none;
+}
+.inputArea_dropdown {
+  border: 1px solid #ece9e9;
+  /* height: 45px; */
+  width: 45%;
+  font-size: 18px;
+  outline: none;
+  padding:  12px;
+  cursor: pointer;
+  background-color: white;
+  margin: 10px 0px;
+  color: #000;
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 10.127L12 18.127L20 10.127H4Z" fill="%238E8E93"/></svg>');
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 98%;
+}
+.inputSelect {
+  width: 40%;
+}
+.inputArea_currency {
+  border: 1px solid #ece9e9;
+  height: 45px;
+  width: 46%;
+  font-size: 18px;
+  outline: none;
+  padding-left: 8px;
+  cursor: pointer;
+  background-color: white;
+  margin: 10px 0px;
+  color: #000;
+}
+.Icon {
+  padding: 6px 0px 0px 2px;
+}
+.lableDesign {
+  margin: 15px 0px 0px 0px;
+  font-weight: 500;
+  color: #000;
+  display: flex;
+}
+.error_message {
+  color: rgb(250, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.back_button {
+  background: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.AddonCardConatiner {
+  width: 400px;
+}
+@media screen and (min-width: 1023px) {
+  .Maincontainer_border {
+    padding: 0px 20px;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    margin-top: 20px;
+  }
+  .Pagewrapper {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}

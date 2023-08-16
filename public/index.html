@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/assets/IPassets/rozgaarIcon.png" />
+
+    <meta name="theme-color" content="#000000" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+    />
+    <link rel="apple-touch-icon" href="/assets/IPassets/rozgaarIcon.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-59MGW9H");
+    </script>
+
+  <!--   <meta property="og:title" content="$OG_TITLE" />
+    <meta property="og:description" content="$OG_DESCRIPTION" />
+    <meta property="og:image" content="$OG_IMAGE" />
+    <meta property="og:type" content="$OG_TYPE" />
+    <meta property="og:url" content="$OG_URL" />
+
+    <meta property="twitter:image" content="$OG_IMAGE" />
+    <meta property="twitter:title" content="$OG_TITLE" />
+    <meta property="twitter:description" content="$OG_DESCRIPTION" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@rozgaarindia" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-109083878-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-109083878-3");
+    </script>
+<!--     clarity code: Microsoft hotjar --> 
+
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "cnivcabm6m");
+  </script>
+      <script src="https://cdn.tiny.cloud/1/iqzc2chs08s4j8p2r5j97xczm0z74qk7tlibltqx5rgdru86/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <!-- Start of  Zendesk Widget script -->
+            <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=01b31bdb-db26-4eb8-8f56-8968b7ecf179"> </script>
+    <!-- End of  Zendesk Widget script -->
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-59MGW9H"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <script>
+      let permission = Notification.permission;
+
+      if (permission === "granted") {
+        showNotification();
+      } else if (permission === "default") {
+        requestAndShowPermission();
+      } 
+      console.log(permission);
+      function requestAndShowPermission() {
+        Notification.requestPermission(function (permission) {
+          if (permission === "granted") {
+            showNotification();
+          }
+        });
+      }
+      function showNotification() {
+        //  if(document.visibilityState === "visible") {
+        //      return;
+        //  }
+        let title = "Simple business softwares for small companies | SAS ONE";
+        let icon = "https://homepages.cae.wisc.edu/~ece533/images/zelda.png"; //this is a large image may take more time to show notifiction, replace with small size icon
+        let body = "Message to be displayed";
+
+        let notification = new Notification(title, { body, icon });
+
+        notification.onclick = () => {
+          notification.close();
+          window.parent.focus();
+        };
+      }
+    </script>
+  </body>
+</html>

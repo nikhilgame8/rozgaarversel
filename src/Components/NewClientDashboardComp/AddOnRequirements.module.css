@@ -1,0 +1,73 @@
+.mainContainer {
+  margin: 10px;
+  padding: 20px;
+  height: fit-content;
+
+  padding-left: 30px;
+  background-color: white;
+}
+
+.mainHeading {
+  font-weight: bold;
+  font-size: 18px;
+}
+.addOnContainer {
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  justify-content: space-between;
+  margin-top: 10px;
+  max-width: 85%;
+  align-items: center;
+}
+.addOnHeading {
+  font-weight: bold;
+}
+
+.AddonPrice {
+  background-color: #617fff;
+
+  height: 50px;
+  width: 50px;
+  display: grid;
+  border-radius: 50%;
+  color: white;
+}
+.AddonDescription {
+  width: 80%;
+}
+.AddonAmount {
+  font-size: 14px;
+  font-weight: bold;
+  margin: auto;
+}
+.optionContainer {
+  margin-top: 20px;
+}
+.AddOnCheckBox {
+  display: flex;
+  width: 88%;
+}
+.AddOnCheckBoxText {
+  padding-left: 8px;
+}
+.totalAmount {
+  text-align: right;
+  max-width: 85%;
+  padding: 20px 0px 0px 20px;
+}
+.payButton {
+  text-align: center;
+ 
+}
+.AddOnCheckBoxInput {
+  cursor: pointer;
+  flex: 0 0 16px;
+}
+@media screen and (min-width: 1023px) {
+  .payButton {
+    text-align: center;
+   max-width: 90%;
+  }
+}

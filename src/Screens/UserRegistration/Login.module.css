@@ -1,0 +1,156 @@
+.pageLoader {
+  text-align: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  padding: 20px;
+}
+.inputFields_check {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+  align-items: center;
+  cursor: pointer;
+}
+.input_container {
+  margin-top: 25px;
+}
+.checkbox {
+  cursor: pointer;
+}
+.checkbox_text {
+  color: #858585;
+  margin-left: 4px;
+  align-items: center;
+}
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 55%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+}
+.freelancerlink {
+  display: block;
+  color: #13a900;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 30px;
+}
+.signup_link {
+  color: #858585;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.MainHeading{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.login_with {
+  text-align: center;
+  color: #858585;
+  margin: 30px 0px 8px 0px;
+}
+.terms_link {
+  color: #1778f2;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.checkbox {
+  padding: 2px;
+}
+.forgot_password {
+  color: #1778f2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+}
+.back_button {
+  background: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.error_message {
+  color: rgb(250, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.loginWith_Otp {
+  color: #1778f2;
+  text-align: right;
+  text-decoration: none;
+  cursor: pointer;
+}
+.loginLink {
+
+  color: #858585;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .mainContainer {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+  }
+  .signup_link {
+    display: none;
+  }
+  .freelancerlink {
+    display: block;
+    color: #13a900;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .Maincontainer_border {
+    width: 40%;
+    margin: auto;
+    border-width: 1px;
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    margin-top: 20px;
+  }
+  .Pagewrapper {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .loginLink {
+  
+    color: #858585;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,147 @@
+.whyRozgaarMainContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0f587d;
+  padding: 30px;
+  color: white;
+
+  padding-bottom: 60px;
+}
+.heading {
+  color: white;
+}
+
+.contentWhyRI {
+  display: flex;
+  margin-top: 20px;
+}
+
+.iconTick {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.freelancerProfileArea {
+  padding: 30px;
+}
+.profileContainer {
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216);
+  align-self: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.profilePicAndContent {
+  display: flex;
+  align-items: center;
+}
+
+.buttonPlacement {
+  text-align: -webkit-right;
+}
+
+.profileContent {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.contentPadding {
+  padding: 30px;
+}
+
+.callForActionContainer {
+  background-color: #ebf4ff;
+  padding-bottom: 50px;
+}
+
+.freelancerSkillFont {
+  font-size: 12px;
+}
+.freelancerlocationFont {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.hireMeButton {
+  margin-right: 0;
+  float: right;
+  align-self: baseline;
+}
+
+.imageBanner {
+  margin: auto;
+  width: 80%;
+}
+.hideImage {
+  display: none;
+}
+.PARBtn_Link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .whyRozgaarWeb {
+    width: 60%;
+
+    columns: 2 auto;
+    margin-top: 30px;
+  }
+  .contentWhyRI {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .whyRozgaarMainContainer {
+    display: flex;
+  }
+
+  .webPadding {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+
+  .webButtonAndHeading {
+    width: 40%;
+  }
+  .imageBanner {
+    text-align: right;
+    width: 300px;
+    margin-top: 40px;
+  }
+
+  .profilePicAndContent {
+    display: flex;
+    padding: 10px;
+  }
+
+  .profileContainer {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    align-self: center;
+    padding: 0px;
+    margin-top: 20px;
+    margin: 10px;
+    max-width: 300px;
+  }
+  .freelanerProfileViewWeb {
+    display: flex;
+  }
+
+  .hideImage {
+    display: inherit;
+  }
+  .buttonPlacement {
+    padding: 10px;
+  }
+  .userProfileImage {
+    width: 20%;
+  }
+}

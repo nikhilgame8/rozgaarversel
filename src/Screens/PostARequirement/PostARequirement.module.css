@@ -1,0 +1,51 @@
+.mainContainer {
+  padding: 0px 30px 40px;
+  background-color: white;
+}
+.Maincontainer_border {
+  background-color: white;
+}
+.back_button {
+  background: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.PARBtn_Link {
+  text-decoration: none;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.pageLoader {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1024px) {
+  .mainContainer {
+    padding: 0px 30px 40px;
+  }
+  .Pagewrapper {
+    background-color: #efefef;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 100vh;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  .Maincontainer_border {
+    width: 40%;
+    margin: auto;
+    border-width: 1px;
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+.closePostHeading {
+  font-size: 24px;
+  margin-top: -10px;
+}
+.closePostHeading {
+  font-size: 24px;
+  margin-top: -10px;
+}
+.closePostButtons {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.btnContainer {
+  padding: 10px 0px 3px 0px;
+}
+.closePostHeading {
+  font-size: 20px;
+}
+.closePostButtonsConatiner {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .closePostButtons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .btnContainer {
+    padding: 20px 0px 10px 0px;
+  }
+  .closePostButtonsConatiner {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,47 @@
+.rightMenuMain {
+  width: 70px;
+  background-color: rgb(255, 255, 255);
+  height: 700px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e2e2e2;
+}
+.leftMenu {
+  padding: 10px;
+
+  margin-left: 10px;
+
+  display: flex;
+  align-items: center;
+}
+.leftMenu:hover .tooltipContent {
+  cursor: pointer;
+  visibility: visible;
+}
+.leftMenuHeading {
+  text-align: right;
+  padding: 5px;
+}
+.menuText {
+  margin-left: 10px;
+}
+.horiTag {
+  width: 90%;
+  text-align: right;
+  border-width: 1px;
+  border-color: #e2e2e2;
+  border-style: solid;
+  margin-right: 0;
+}
+.tooltipContent {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(95, 95, 95);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 12px;
+  position: absolute;
+  z-index: 2;
+}

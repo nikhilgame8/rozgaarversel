@@ -1,0 +1,54 @@
+.mainContainer {
+  margin-top: 10px;
+
+  margin-left: 10px;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.contentContainer {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.mainHeaing {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.mainContent {
+  color: grey;
+  width: 80%;
+  margin: auto;
+}
+.bottomText {
+  color: grey;
+
+  justify-content: center;
+}
+
+.imageArea {
+  text-align: right;
+  margin-right: 30px;
+  margin: auto;
+}
+.blueText {
+  color: #1678f2;
+  margin-left: 5px;
+  text-decoration: none;
+}
+.blueText {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .bottomText {
+    display: flex;
+  }
+  .mainContainer {
+    margin-left: 0px;
+    width: 70%;
+  }
+}

@@ -1,0 +1,51 @@
+.modal {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  border: 1px solid #00a484;
+  border-radius: 5px;
+}
+
+.mainContainer {
+  margin-top: 30px;
+}
+.successfulHeading {
+  font-weight: 600;
+  font-size: 30px;
+  color: #00a484;
+}
+
+.failHeading {
+  font-weight: 600;
+  font-size: 30px;
+  color: #cd2626;
+}
+.detailContainer {
+  margin-top: 20px;
+}
+.detailDiv {
+  display: flex;
+
+  justify-content: space-between;
+  font-size: 20px;
+}
+.detailvalue {
+  font-weight: 600;
+}
+
+.mainHeading {
+  font-weight: bold;
+  color: gray;
+}
+
+.backMessage {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 30%;
+  }
+}

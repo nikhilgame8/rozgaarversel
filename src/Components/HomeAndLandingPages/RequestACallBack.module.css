@@ -1,0 +1,25 @@
+.mainContainer {
+  height: auto;
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+
+.headingArea {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.callHeading {
+  font-size: 18px;
+  text-align: center;
+}
+
+.ActionButton {
+  justify-content: center;
+  display: flex;
+}
+
+.PARBtn_Link {
+  text-decoration: none;
+  margin-top: 20px;
+}

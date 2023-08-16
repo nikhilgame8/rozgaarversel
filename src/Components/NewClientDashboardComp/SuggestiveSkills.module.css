@@ -1,0 +1,52 @@
+.mainContainer {
+  padding: 10px;
+  background-color: white;
+  height: fit-content;
+  width: fit-content; 
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.SkillTab {
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(223, 223, 223);
+  padding: 5px 10px;
+  border-style: solid;
+  width: fit-content;
+  margin: 5px;
+  font-size: 14px;
+}
+.tabContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabContainerText{
+  margin-left: 10px;
+  color: grey;
+}
+.PARLink{
+  cursor: pointer;
+  color:  #1678f2;
+  text-decoration: none;
+}
+.SkillTab:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.mainHeading {
+  font-weight: 800;
+  padding: 10px;
+  font-size: 25px;
+}
+@media (min-width: 768px) {
+  .mainContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

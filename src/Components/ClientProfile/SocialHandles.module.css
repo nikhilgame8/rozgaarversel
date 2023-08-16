@@ -1,0 +1,21 @@
+.pageMainContainer {
+  background-color: white;
+  margin-right: 10px;
+}
+.submitbutton {
+  width: 100%;
+  text-align: center;
+}
+.mainHeading {
+  font-size: 30px;
+
+  font-weight: bold;
+}
+.successMessage {
+  color: #1778f2;
+}
+@media (min-width: 1023px) {
+  .pageMainContainer {
+    padding-top: 20px;
+  }
+}

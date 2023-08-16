@@ -1,0 +1,100 @@
+.partnerLoginButtonContainer {
+  display: flex;
+  margin: auto;
+  border: 1px solid #4267b2;
+  border-radius: 6px;
+  width: 50%;
+  align-items: center;
+}
+.partnerLoginButtonContainer:hover {
+  cursor: pointer;
+  color: #4267b2;
+}
+.partnerIcon {
+  color: #4267b2;
+  width: 10%;
+  border-color: #4267b2;
+  padding: 4px;
+  border-radius: 8px;
+}
+.facebookBtn {
+  font-weight: 600;
+  width: 100%;
+  border-radius: 0px 6px 6px 0px;
+  color: #3b5998;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  padding: 14px;
+  font-size: 16px;
+}
+.facebookBtn:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.continueText:hover {
+  font-weight: 400;
+  background-color: #4285f4;
+  width: 100%;
+  text-align: center;
+  border-radius: 0px 6px 6px 0px;
+  padding: 5px 0px;
+  color: #fff;
+}
+.partnerFBLogin {
+  margin: auto;
+  background-color: #fff;
+  border-radius: 6px;
+  width: 90%;
+}
+.partnerFBLogin:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+.partnerIcongoogle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 6px;
+  box-shadow: none;
+}
+.partnerIcongoogle:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.GoogleBtn {
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  width: 90%;
+  color: #4285f4;
+  border-radius: 0px 6px 6px 0px;
+}
+.GoogleBtn:hover {
+  background-color: #4285f4;
+  color: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .GoogleBtn {
+    font-size: 16px;
+    border: none;
+    padding: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    background: none;
+    width: 100%;
+    color: #4285f4;
+  }
+}

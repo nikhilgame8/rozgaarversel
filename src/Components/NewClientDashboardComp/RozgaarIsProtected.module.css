@@ -1,0 +1,52 @@
+.mainContainer {
+  padding: 15px;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+ 
+  height: fit-content;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.mainHeading {
+  font-weight: 800;
+  padding: 10px;
+  font-size: 25px;
+}
+.contentContainer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.content {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+}
+.buttonText {
+  color: #1678f2;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: right;
+  font-size: 12px;
+}
+.buttonText:hover {
+  color: rgb(179, 179, 179);
+  cursor: pointer;
+}
+.RozgaarIsProtected_image {
+  font-size: 20px;
+}
+.RozgaarIsProtected_text {
+  font-weight: 600;
+ 
+  color: #000;
+  margin-left: 10px;
+}
+
+@media (min-width: 1024px) {
+  .mainContainer {
+    margin-left: 0px;
+  }
+}

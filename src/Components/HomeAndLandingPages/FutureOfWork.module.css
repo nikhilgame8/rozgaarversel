@@ -1,0 +1,56 @@
+.mainContainer {
+  padding: 15px;
+  background-color: #edffff;
+}
+.missionStatement {
+  color: #1e1e1e;
+  margin: 0px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.knowMore {
+  text-align: right;
+  color: #9398a1;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.knowMore:hover {
+  cursor: pointer;
+  color: #1778f2;
+}
+
+.iconArrow {
+  margin-top: 3px;
+}
+
+.PARBtn_Link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1023px) {
+  .mainContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+  }
+
+  .webLayout {
+    display: grid;
+    width: 70%;
+    padding-top: 20px;
+  }
+  .missionStatement {
+    font-size: 18px;
+    padding: 10px;
+  }
+}

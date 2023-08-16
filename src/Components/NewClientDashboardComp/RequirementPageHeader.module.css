@@ -1,0 +1,103 @@
+.mainContainer {
+  padding: 20px;
+  background-color: #315add;
+
+  color: white;
+}
+.commission {
+  background-color: #fea11b;
+}
+
+.contract {
+  background-color: #486a31;
+}
+.oneTime {
+  background-color: #365aa9;
+}
+.monthly {
+  background-color: #125552;
+}
+
+.workingPolicy {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.mainSkill {
+  font-size: 27px;
+  font-weight: 600;
+  padding-left: 10px;
+  margin: 0px;
+  color: #fff;
+}
+.mainSkillStatus {
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 10px;
+  margin: 8px 0px 5px 0px;
+  color: #fff;
+  font-style: italic;
+}
+.mainSkillContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* .skillAndStatus {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+} */
+.backArrow {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.arrowAndMenuOption {
+  display: flex;
+  justify-content: space-between;
+}
+.menuOption {
+  display: flex;
+  margin-top: 12px;
+}
+.menuButton {
+  padding: 3px 5px;
+  border: 1px solid white;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.menuButton:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+.contractGreen {
+  color: #caffa6;
+}
+.OneTimeBlue {
+  color: #d5dfff;
+}
+.monthlyGrey {
+  color: #85fffa;
+}
+.comYellow {
+  color: #4c2c00;
+}
+@media screen and (min-width: 1023px) {
+  .skillAndStatus {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mainSkill {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+    margin: 0px;
+    color: #fff;
+  }
+}

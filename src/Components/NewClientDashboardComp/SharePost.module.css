@@ -1,0 +1,76 @@
+.ShareIcon {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.shareIconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+}
+.iconColor {
+  color: white;
+  height: 27px;
+  width: 27px;
+}
+.iconHref{
+  margin-top: 10px;
+  padding: 0 5px;
+}
+.iconHrefSmall{
+  margin-top: 8px;
+  padding: 0 5px;
+}
+.iconBg {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+
+  margin: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.Email {
+  background-color: #7f7f7f;
+}
+
+.LinkedIn {
+  background-color: #007fb1;
+}
+.Whatsapp {
+  background-color: #25d366;
+}
+.Facebook {
+  background-color: #007bff;
+}
+.Twitter {
+  background-color: #00aced;
+}
+.textInputLabel {
+  padding: 10px 10px;
+  outline: none;
+  border: 1px solid #ece9e9;
+  margin: 10px 0px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyIcon {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.textInput {
+  border: none;
+  width: 100%;
+  outline: none;
+}
+.error_message {
+  color: #007bff;
+  position: absolute;
+  padding-top: 50px;
+  width: 80%;
+  text-align: right;
+}

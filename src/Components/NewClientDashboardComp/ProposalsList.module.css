@@ -1,0 +1,173 @@
+.mainContainer {
+  background-color: white;
+  margin: 10px;
+
+  padding: 10px 20px 20px;
+}
+
+.mainHeading {
+  font-weight: bold;
+  font-size: 18px;
+}
+.listOfProposals {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.iconAndUsername {
+  display: flex;
+  align-items: center;
+}
+.budgetAmount {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.iconContainer {
+  background-color: rgb(228, 228, 228);
+  border-radius: 50%;
+}
+.profileImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.freelancerName {
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.freelacerSkill {
+  font-size: 12px;
+}
+.nameAndSkillContainer {
+  margin-left: 10px;
+}
+
+.budgetPricingFreelancer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.acceptButton {
+  padding: 5px 10px 5px 10px;
+  
+  background-color: green;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.viewProposalButton{
+  padding: 5px 10px 5px 10px;
+  border:1px solid #1878F2;
+  color:#1878F2;
+  width: fit-content;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.viewProposalButton:hover{
+
+  background-color:#1878F2;
+  color:#ffffff;
+  cursor: pointer;
+  
+
+
+}
+.rejectButton {
+  padding: 5px 10px 5px 10px;
+
+  background-color: rgb(255, 57, 83);
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.messageIcon {
+  color: #0099cc;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.messageIcon:hover{
+  color: #4700cc;
+  cursor: pointer;
+}
+
+.cnacelIcon {
+  color: #f2163b;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.rejectButton:hover {
+  background-color: #a1122a;
+  cursor: pointer;
+}
+.acceptButton:hover {
+  background-color: rgb(0, 182, 0);
+  cursor: pointer;
+}
+.notificationCounter {
+  background-color: red;
+  padding: 3px;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -12px;
+  margin-left: 11px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.budgetUnit {
+  font-size: 16px;
+}
+.closePostButtons{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.dateProposal{
+color: gray;
+font-size: 12px;
+}
+.proposalPointsHeading{
+  font-weight: 800;
+}
+.proposalResponse{
+  font-weight: 400;
+}
+.statusPayment{
+  color: green;
+  font-weight: 800;
+  
+}
+.statusPaymentRejected{
+  color: rgb(255, 7, 11);
+  font-weight: 800;
+}
+@media (min-width: 768px) {
+.closePostButtons{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainContainer{
+  margin-left: 0px;
+}
+
+}

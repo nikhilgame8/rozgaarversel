@@ -1,0 +1,89 @@
+.mainContainer {
+  background-color: white;
+  padding: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: fit-content;
+  margin-left: 10px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.nameAndDetailArea {
+  background: linear-gradient(45deg, #134e5e, #71b280);
+  background-color: rgb(61, 119, 80);
+  padding: 10px;
+  color: white;
+}
+.infoArea {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(133 177 160);
+  font-weight: bold;
+  font-size: 14px;
+  font-weight: 14px;
+}
+.infoAreaIcon {
+  margin-right: 10px;
+}
+.nameWithInitials {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.memberShipContent {
+  text-align: right;
+  font-weight: bold;
+}
+.fullName {
+  font-size: 20px;
+}
+
+.headingContainer {
+  padding: 10px;
+  margin-top: 10px;
+}
+.accontStatusHeading {
+  font-weight: bold;
+  font-weight: 14px;
+}
+.hireAssistant {
+  display: grid;
+}
+
+.progressbar {
+  width: 80%;
+  margin-left: 10px;
+  border-radius: 5px;
+
+  background-color: #dcf0fa;
+}
+
+.profileTask {
+  padding: 10px;
+  background-color: rgb(243, 243, 243);
+  color: #1678f2;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.accountBalance {
+  font-weight: bold;
+  text-align: center;
+}
+.accontStatussub {
+  font-size: 14px;
+  color: gray;
+}
+
+@media (min-width: 768px) {
+  .mainContainer {
+    margin-left: 0px;
+  }
+}

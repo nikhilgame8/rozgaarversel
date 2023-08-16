@@ -1,0 +1,20 @@
+.mainContainer {
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.mainHeading {
+  font-weight: bold;
+  font-size: 18px;
+}
+.workAvailability {
+  padding-top: 10px;
+}
+.sectionContainer {
+  margin-top: 20px;
+}
+.editBtn {
+  display: flex;
+  justify-content: flex-end;
+}

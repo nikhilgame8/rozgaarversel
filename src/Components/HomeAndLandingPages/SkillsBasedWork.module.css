@@ -1,0 +1,108 @@
+.skillOption {
+  padding: 7px;
+  border: 1.5px solid #59acbf;
+  border-radius: 8px;
+  text-align: center;
+  margin: 5px;
+
+  color: #59acbf;
+  cursor: pointer;
+}
+.knowMore {
+  text-align: right;
+  color: #9398a1;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  display: flex;
+}
+.knowMore:hover {
+  cursor: pointer;
+  color: #1778f2;
+}
+.tagDisplay {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.linkScroll {
+  display: flex;
+}
+.mainContainer {
+  padding: 15px;
+  background-color: #f3f9ff;
+  padding-bottom: 30px;
+}
+.setoverFlow {
+  overflow: scroll;
+  margin-top: 20px;
+}
+.setoverFlow::-webkit-scrollbar {
+  display: none;
+}
+
+.PARBtn_Link {
+  text-decoration: none;
+}
+@media screen and (min-width: 1023px) {
+  .mainContainer {
+    padding: 50px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+  }
+
+  .skillOption:hover {
+    padding: 10px;
+    border: 1.5px solid #59acbf;
+    border-radius: 8px;
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+    background-color: #59acbf;
+    color: #f3f9ff;
+  }
+  .setoverFlow {
+    overflow: hidden;
+    margin-top: 20px;
+  }
+ 
+}
+@media screen and (min-width: 768px) {
+  .mainContainer {
+    padding: 50px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+  }
+  .setoverFlow {
+    overflow: scroll;
+    margin-top: 20px;
+  }
+  .skillOption {
+    padding: 10px;
+    border: 1.5px solid #59acbf;
+    border-radius: 8px;
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+    color: #59acbf;
+  }
+  .knowMore{
+   padding: 25px 10px;
+ 
+  }
+  .tagDisplay {
+    display: flex;
+   
+    width: 660px;
+    flex-wrap: wrap;
+  }
+}

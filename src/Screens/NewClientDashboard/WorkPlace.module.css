@@ -1,0 +1,85 @@
+.welcomeMessage {
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.firstWelcome {
+  font-size: 20px;
+
+  display: flex;
+}
+
+.snippetsCollection {
+  display: flex;
+}
+.welcomeName {
+  margin-left: 5px;
+  font-weight: bold;
+}
+.bannerContainer {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.banner {
+ 
+  margin-top: 18px;
+}
+.noreqAndProfile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reqAndUpgradeOption {
+  display: flex;
+}
+.RequirementCard_Package {
+
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.mainHeading {
+  font-weight: 800;
+  padding: 10px;
+  font-size: 25px;
+}
+.pageDivider{
+  display: flex;
+}
+.leftArea{
+
+  width: 65%;
+  margin-right: 10px;
+  }
+
+.rightArea{
+  width: 35%;
+  margin-right: 10px;
+}
+.loaderConatiner{
+  
+ background-color: #fff;
+ width: 45%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+@media (min-width: 768px) {
+  .welcomeMessage {
+    display: flex;
+  }
+  .bannerContainer {
+    margin-left: 0px;
+  }
+
+  .reqAndUpgradeOption {
+    justify-content: space-between;
+  }
+}

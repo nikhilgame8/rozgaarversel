@@ -1,0 +1,78 @@
+.mainContainer {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  padding-left: 30px;
+  height: fit-content;
+}
+.noApplication {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.heading{
+  text-align: center;
+}
+.mainHeading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.headingContainer {
+
+  max-width: 99%;
+}
+.paymentDetails {
+  margin-top: 10px;
+  padding: 20px 0px;
+  max-width: 85%;
+}
+.title {
+  font-size: 13px;
+}
+.name {
+  font-weight: bold;
+}.contentAndIcon {
+  margin: auto;
+  margin-top: 30px;
+}
+.iconArea {
+  font-size: 30px;
+  margin: auto;
+
+  margin-top: 30px;
+  display: grid;
+}
+
+.profilePicture {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.profileContainer {
+  align-items: center;
+  display: flex;
+}
+.border {
+  border-bottom: 1px groove #fdfdfd;
+}
+.idWrapper{
+  margin-top: 10px;
+}
+.faq_ActionButton{
+  text-align: right;
+  margin-right: 5px;
+}
+.tableheading{
+  font-weight: 300;
+  font-size: 14px;
+}
+@media screen and (min-width: 1023px) {
+
+  .headingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+}
+

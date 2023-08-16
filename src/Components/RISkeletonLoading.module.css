@@ -1,0 +1,206 @@
+.maincontainer {
+  width: 97%;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+  margin: 20px 10px;
+  padding-top: 10px;
+  padding: 30px;
+  align-items: center;
+}
+
+.container {
+  width: 78%;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+  margin: 20px 10px;
+  padding-top: 10px;
+  padding: 30px;
+  align-items: center;
+}
+
+.skeletonline {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 16px;
+  background: #eee;
+  border-radius: 3px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.displey {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.displey_rozgaar {
+  display: flex;
+  justify-content: space-between;
+  overflow: scroll;
+  width: 100%;
+}
+
+.skeleton_recommended {
+  padding: 10px;
+}
+
+@keyframes skeleton-animation {
+  0% {
+    right: 100%;
+  }
+
+  100% {
+    right: -128px;
+  }
+}
+
+.skeletonline:before {
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 500px;
+  background: linear-gradient(90deg, rgba(214, 210, 210, 0), rgb(221, 221, 221), rgba(255, 255, 255, 0));
+  content: "";
+  animation: skeleton-animation 2s infinite;
+}
+
+.webLayout {
+  display: flex;
+  justify-content: center;
+  margin: 10px 30px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-top: -20px;
+  width: 70%;
+  margin: auto;
+}
+
+.skeleton_article {
+  background: #fff;
+}
+
+.articleRozgaar_maindiv {
+  width: 70%;
+  margin: auto;
+}
+
+.skeleton_detailarea {
+  padding: 30px 20px 0px 20px;
+  margin: 10px;
+  background-color: #fff;
+  height: 230px;
+}
+
+.detail_flex {
+  display: flex;
+
+}
+
+.skeleton_pageheader {
+  height: 150px;
+  background-color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.pageheader_margin {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.applicationdetail {
+
+  padding-top: 50px;
+  height: 150px;
+  text-align: -webkit-right;
+
+}
+.displey_fivefreelancer {
+  display: flex;
+  justify-content: center;
+}
+
+.displey_addon {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 20px;
+  padding: 20px 20px 10px 20px;
+  margin: 10px;
+}
+
+.displey_ProposalsList {
+
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 7px;
+  padding: 20px 20px 10px 20px;
+  margin: 10px;
+}
+.skeletonlineCircle{
+  background: #eee;
+  border-radius: 50%;
+ height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  margin-top: 14px;
+}
+.skeletonlineCircleCantainer{
+  display: flex;
+  padding: 12px 0px 8px 0px;
+  border-bottom: 1px solid lightgrey;
+}
+.skeletonlineMainContainer{
+  width: 100%;
+  padding-left: 12px;
+}
+.fAQContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px solid lightgrey;
+}
+@media screen and (max-width:425px) {
+  .maincontainer {
+    margin: 20px 0px;
+  }
+
+  .container {
+    margin: 20px 0px;
+  }
+
+  .webLayout {
+    display: block;
+    margin: 10px 0px;
+  }
+
+  .articleRozgaar_maindiv {
+    width: 90%;
+  }
+
+  .skeletonline {
+    width: auto;
+  }
+
+  .flex {
+    display: block;
+    padding-top: 20px;
+    margin-top: -20px;
+
+    width: 100%;
+    margin: auto;
+  }
+
+  .skeletonflex {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+}

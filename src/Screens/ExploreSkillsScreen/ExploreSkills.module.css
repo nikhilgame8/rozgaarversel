@@ -1,0 +1,50 @@
+.ExploreSkills_maincontainer {
+  padding: 30px 0px;
+}
+.ExploreSkills_img {
+  
+  display: block;
+  position: absolute;
+}
+.ExploreSkills_heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+.ExploreSkills_maintext {
+  position: absolute;
+  padding-top: 13px;
+  position: relative;
+  padding-left: 10px;
+}
+.ExploreSkills_imgweb {
+  display: none;
+}
+.partnerCompanies_about {
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .ExploreSkills_imgweb {
+    position: absolute;
+    display: block;
+    
+  }
+  .ExploreSkills_img {
+    display: none;
+  }
+  .ExploreSkills_maintext {
+    position: relative;
+    padding-top: 26px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .ExploreSkills_heading {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .partnerCompanies_border {
+    border-bottom: 6px solid #3d2086;
+    width: 15%;
+    margin: 30px auto;
+    border-radius: 6px;
+  }
+}

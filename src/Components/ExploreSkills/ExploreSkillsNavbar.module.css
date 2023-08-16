@@ -1,0 +1,149 @@
+.header_container {
+  width: 100%;
+}
+.scroll_container {
+  overflow-x: scroll;
+}
+.navbar {
+  display: flex;
+  font-size: 24px;
+  border-bottom: 2px solid #f0f0f0;
+  width: 455px;
+  overflow-y: hidden;
+}
+.menuOptionSelected {
+  font-size: 24px;
+  margin: 5px 15px 0px;
+  font-weight: bold;
+  color: #060606;
+  text-decoration: none;
+  border-bottom-width: 4px;
+  border-bottom-color: #422883;
+  border-bottom-style: solid;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.menuOptionContent:hover {
+  cursor: pointer;
+}
+.menuOptionContent {
+  font-size: 24px;
+  margin: 5px 15px 0px;
+  font-weight: 500;
+  color: #060606;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.TextLineFirst {
+  cursor: pointer;
+  margin-top: 20px;
+}
+.TextLineFirstbold {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.skills_Link {
+  text-decoration: none;
+  color: #000;
+}
+
+.jshondata_map {
+  padding-top: 20px;
+}
+.dflex {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-left: 10px;
+}
+.jshondata {
+  margin-left: 36px;
+}
+.relatedSkillBox {
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(223, 223, 223);
+  padding: 5px 10px;
+  border-style: solid;
+  width: fit-content;
+  margin: 5px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.relatedSkillBox:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.relatedSkillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 200px;
+  overflow: scroll;
+}
+.mainDiv {
+  width: 100%;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .header_container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+  }
+  .navbar {
+    display: block;
+    border-bottom: none;
+    width: 100%;
+    overflow: hidden;
+  }
+  .MenuOnHover_active {
+    border-bottom: none;
+    font-size: 28px;
+  }
+
+  .menuOptionSelected {
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 28x;
+  }
+  .dflex {
+    display: flex;
+    flex-direction: row;
+  }
+  .jshondata {
+    flex-wrap: wrap;
+  }
+  .jshondata_map {
+    padding-top: 20px;
+    cursor: pointer;
+  }
+
+  .TextLineFirst {
+    width: 100%;
+    cursor: pointer;
+  }
+  .TextLineFirstbold {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .TextLine {
+    width: 100%;
+  }
+  .scroll_container {
+    overflow-x: hidden;
+  }
+  .ItemName {
+    width: 100%;
+    margin-left: 30px;
+    cursor: pointer;
+  
+  }
+  .mainDiv {
+    width: 600px;
+    margin-top: 5px;
+  }
+}

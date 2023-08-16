@@ -1,0 +1,367 @@
+.headerMainContainer {
+  width: 100%;
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.menuContainerTop {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin-right: 30px;
+  margin-left: 25px;
+  align-items: center;
+}
+.menuContainerTopMobile {
+  display: flex;
+  margin-left: 25px;
+  align-items: center;
+}
+.MenuBtnLink{
+  text-decoration: none;
+  color: #000;
+}
+.MenuBtnLink:hover{
+
+  color: #1778f2;
+}
+.headerWeb {
+  background-color: #ffffff;
+  display: flex;
+  padding: 15px;
+
+  box-shadow: 0 4px 2px -2px rgb(236, 236, 236);
+  align-items: center;
+  max-width: 1600px;
+  margin: auto;
+}
+.headerMobile {
+  padding: 15px;
+}
+.topMenuHeads {
+  display: flex;
+}
+
+.menubuttons {
+  margin-left: 20px;
+}
+.menubuttonsLogin{
+  margin-left: 20px;
+  font-weight: 600;
+
+}
+
+.menubuttons:hover {
+  color: #1778f2;
+
+  cursor: pointer;
+}
+.topMenuHeadsRight {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.menuDropdown {
+  display: block;
+  position: absolute;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease-out;
+  padding: 20px;
+  background-color: white;
+  float: right;
+  right: 30px;
+  top: 65px;
+  border-radius: 10px;
+  visibility: inherit;
+  visibility: visible;
+  z-index: 1;
+}
+.menuDropdownHide {
+  display: none;
+}
+
+.linkTag {
+  text-decoration: none;
+}
+.iconmm {
+  margin: auto;
+}
+.userMenuOptions {
+  padding-left: 10px;
+}
+.iconAndText {
+  display: flex;
+  align-content: center;
+  padding: 10px;
+  align-items: center;
+  color: #000;
+}
+.iconAndText:hover{
+  color: #1778f2;
+
+}
+.userMenuOptions:hover {
+  color: #1778f2;
+
+  cursor: pointer;
+}
+
+.headerMainContainer_Mobile {
+  position: relative;
+  min-height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+.PARBtn_Link {
+  text-decoration: none;
+}
+.ActionButton {
+  display: flex;
+  margin-right: 20px;
+}
+.back_button {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.riLogo {
+  margin-left: 30px;
+}
+.riLogo_Mobile {
+  margin-left: 10px;
+}
+
+.riLogo_MobileBack {
+  margin: auto;
+  padding: 8px;
+}
+.heading1 {
+  font-size: 18px;
+  padding: 5px;
+  padding-right: 15px;
+font-weight: 600;
+  color: black;
+}
+.heading1:hover {
+  cursor: pointer;
+  color: #1778f2;
+}
+.hamburger {
+  padding-left: 15px;
+  color: #69737c;
+}
+
+.backIcon {
+  color: #0c2551;
+  padding: 5px;
+  padding-left: 2%;
+}
+.join {
+  padding: 5px;
+  padding-left: 2%;
+}
+.menuOption {
+  display: flex;
+  align-self: center;
+
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+
+  margin-right: 30px;
+}
+.menuTitle {
+  font-weight: bold;
+
+  margin-right: 30px;
+  color: rgb(36, 36, 36);
+}
+
+.menuTitle:hover {
+  color: rgb(209, 209, 209);
+  cursor: pointer;
+}
+
+.logoAndMenu {
+  display: flex;
+  padding-left: 2%;
+}
+.menuWrapper {
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.close_button {
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+.crossIcon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.JoinBtn_Link {
+  text-decoration: none;
+  color: #fff;
+}
+.drawer_menu_header {
+  background-color: #1778f2;
+  padding: 15px 15px 33px 15px;
+}
+.menuProfile_image {
+  width: 85px;
+  height: 85px;
+  background-color: #a38585;
+  border-radius: 50%;
+}
+.menu_profile {
+  display: flex;
+  align-items: center;
+  width: 93%;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+.menuProfile_name {
+  margin: 0px;
+}
+.menuProfile_button {
+  padding: 4px 14px;
+  margin-top: 13px;
+  border-radius: 10px;
+  border: none;
+}
+.menuNav_contaner {
+  background-color: #ffffff;
+}
+.menuNav {
+  padding: 24px 30px;
+}
+.link_container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-weight: 500;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+  margin-left: 15px;
+}
+.border {
+  border-bottom: 1px solid #bdb8b8;
+  margin: 30px 0px 30px 15px;
+}
+.link_bottom {
+  color: #0c2551;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.menu_icon {
+ /*  color:linear-gradient(45deg, rgb(255, 116, 116), transparent); */
+ color: white;
+ padding: 5px;
+
+ background: -webkit-linear-gradient(45deg,#00c6ff, #0072ff);
+ /*  height: 22px;
+  width: 22px; */
+}
+.menu_icon_noBg{
+  
+}
+
+.menu_nav {
+  padding: 0px 30px 24px 30px;
+}
+.linkDesignNone {
+  text-decoration: none;
+  color: #191919;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  margin: auto;
+  position: relative;
+  font-weight: 500;
+  top: -25px;
+  width: 84%;
+  padding: 20px 0px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  z-index: 30;
+}
+.closeModal {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  padding: 6px;
+}
+.Message{
+  display: block;
+  font-size: 15px;
+  padding: 10px 12px 20px 12px;
+  text-align: center;
+  font-weight: 400;
+}
+.LoaderCenter{
+  text-align: center;
+}
+.msgbtmcenter{
+  text-align: center;
+}
+.title{
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-weight:500;
+  margin-top: 9px;
+}
+.loginHighlight{
+  font-weight: bold;
+}
+@media screen and (min-width: 1023px) {
+  .modal {
+    background-color: white;
+      margin: auto;
+      position: relative;
+      font-weight: 500;
+      top:-25px;
+      width: 30%;
+      padding: 23px 0px;
+      border-radius: 14px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+      z-index: 30;
+  }
+  .Message{
+    padding: 12px;
+    font-size: 20px;
+  }
+
+  .title{
+      display: block;
+      font-size: 20px;
+      text-align: center;
+      font-weight:500;
+      margin-top: 18px;
+  }
+
+  
+}

@@ -1,0 +1,113 @@
+.NotificationWeb_unread {
+  display: flex;
+  padding: 0px 0px 15px 15px;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-left: 3px solid #1778f2;
+  margin-top: 10px;
+}
+.NotificationWeb_flex {
+  display: flex;
+  padding: 0px 0px 15px 15px;
+  align-items: center;
+  border: 1px solid #7a7a7a;
+}
+.NotificationWeb_head {
+  padding: 10px;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.notificationHeading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.NotificationWeb_img {
+  width: 70px;
+  height: 70px;
+  margin-top: 22px;
+  margin-right: 15px;
+}
+
+.NotificationWeb_icon {
+  width: 15%;
+  padding-top: 28px;
+  cursor: pointer;
+}
+
+.NotificationWeb_pera {
+  margin-top: -15px;
+  font-size: 15px;
+}
+
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.NotificationWeb_headflex {
+  display: flex;
+}
+
+.NotificationWeb_profile {
+  height: 20px;
+  width: 20px;
+  padding: 5px 5px 5px 5px;
+}
+
+.NotificationWeb_displey {
+  width: 70%;
+}
+
+.NotificationWeb_maindiv {
+  background: #f5f6fb;
+  padding: 0px 20px 20px 20px;
+  height: 20%;
+  flex: 2;
+}
+.card_open {
+  flex: 1;
+}
+.NotificationWeb_pera1 {
+  margin-top: -15px;
+  font-size: 10px;
+}
+
+.NotificationWeb_icon1 {
+  text-align: end;
+  cursor: pointer;
+}
+
+.NotificationWeb_iconclass {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.NotificationWeb_pera2 {
+  margin-top: -10px;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.container_open {
+  display: flex;
+  flex-direction: row;
+}
+
+.notifcationPadding {
+  padding: 20px;
+}
+
+.notificationweb_heading {
+  width: 100%;
+}

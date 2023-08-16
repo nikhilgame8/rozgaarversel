@@ -1,0 +1,31 @@
+.pageLayout {
+  background-color: #f5f6fb;
+}
+
+.leftArea {
+  width: 70%;
+  margin-right: 10px;
+}
+
+.pageContainer {
+  display: flex;
+}
+.rightArea {
+  width: 30%;
+}
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.mainProfileImageContainer {
+  height: 200px;
+  width: 100%;
+}
+.mainProfileImage {
+  
+  object-fit: cover;
+}
+.profileAboutContainer {
+  display: flex;
+  width: 100%;
+}

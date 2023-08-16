@@ -1,0 +1,57 @@
+.writeforusFormBox{
+    width: 94%;
+    margin: 40px auto;
+    box-sizing: border-box; 
+}
+
+.writeforusForm{
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.topHeaderBox{
+    background-color: rgba(0, 0, 0, 0.829);
+    color: #ffff;
+    padding: 25px;
+}
+
+.headerText{
+    color: #ffff;
+    font-size: 28px;
+}
+
+.inputBoxes{
+    padding: 25px;
+}
+
+.headerUnderline{
+    border: 2px solid #fff;
+    width: 100px;
+}
+
+.headerPara{
+    margin-top: 30px;
+}
+
+.subtitle{
+    text-align: right;
+    font-size: 14px;
+}
+
+.centerBtn{
+    display: flex;
+    justify-content: start;
+}
+
+@media screen and (min-width: 1023px) {
+    .writeforusFormBox{
+        width: 70%;
+        margin: 40px auto;
+        box-sizing: border-box; 
+    } 
+
+    .centerBtn{
+        justify-content: center;
+    }
+}

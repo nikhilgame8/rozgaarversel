@@ -1,0 +1,92 @@
+.progressbar {
+  display: flex;
+  width: 100%;
+  align-self: center;
+  margin: auto;
+  padding: 15px 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+.progressbar_bscheck {
+  background: #fff;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(16, 40, 71);
+}
+.progressbar_li {
+  cursor: pointer;
+  width: 100%;
+}
+.progressbar_text {
+  color: rgb(46, 46, 46);
+  display: flex;
+  width: 84%;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.progressbar_textstep1 {
+  width: 100%;
+  padding-left: 6px;
+}
+.progressbar_textstep2 {
+  width: 100%;
+  margin-left: -23px;
+}
+.progressbar_textstep3 {
+  width: 100%;
+  margin-left: -23px;
+}
+.progressbar_textstep4 {
+  width: 100%;
+  margin-left: 10px;
+}
+.progressbar_faicon {
+  background: #fff;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: rgb(16, 40, 71);
+}
+.progressbar_border {
+  border-top: 1px solid;
+  width: 100%;
+  margin-top: -16px;
+  margin-left: 13px;
+}
+.progressbar_bordebold {
+  border-top: 4px solid;
+  width: 100%;
+  margin-top: -18px;
+  color: rgb(16, 40, 71);
+  margin-left: 13px;
+}
+@media screen and (max-width: 375px) {
+  .progressbar_textstep1 {
+    padding-left: 12px;
+    font-size: 17px;
+  }
+  .progressbar_textstep2 {
+    padding-left: 11px;
+    font-size: 17px;
+  }
+  .progressbar_textstep3 {
+    padding-left: 14px;
+    font-size: 17px;
+  }
+  .progressbar_textstep4 {
+    padding-left: 11px;
+    font-size: 17px;
+  }
+  .progressbar_faicon {
+    width: 25px;
+    height: 25px;
+  }
+  .progressbar_border {
+    margin-top: -20px;
+  }
+  .progressbar_bordebold {
+    margin-top: -18px;
+  }
+}

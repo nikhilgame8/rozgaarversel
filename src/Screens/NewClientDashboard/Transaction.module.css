@@ -1,0 +1,123 @@
+.mainContainer {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.headingMain {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: white;
+
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.amountsSection {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.amount {
+  font-size: 25px;
+  font-weight: bold;
+}
+.subHeading {
+  font-size: 16px;
+}
+.gridView {
+  display: grid;
+  text-align: center;
+}
+
+.menuContainer {
+  display: flex;
+  margin-left: 20px;
+  padding: 20px;
+  padding-bottom: 5px;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.menuHeading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.menuHeading:hover {
+  cursor: pointer;
+  color: #1678f2;
+}
+
+.menuHeadingSelected {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom-width: 2px;
+  border-bottom-color: #1678f2;
+  border-bottom-style: ridge;
+}
+.menuHeadingSelected:hover {
+  cursor: pointer;
+}
+.mainTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+.headingTable {
+  text-align: center;
+  width: max-content;
+  padding: 0px 20px;
+}
+.headingTableText{
+  text-align: center;
+  width: max-content;
+  padding: 8px 10px;
+}
+.tableMobileAlign {
+  width: max-content;
+}
+.selectionBox {
+  border-width: 1px;
+  border-color: #1678f2;
+  border-style: ridge;
+  align-items: center;
+  width: fit-content;
+  padding: 3px;
+  display: flex;
+}
+
+.arrowIcon {
+  margin-top: 4px;
+  margin-left: 2px;
+  font-size: 12px;
+}
+
+.mobileTableView {
+  overflow: scroll;
+}
+.blank_Notification_div {
+  text-align: center;
+  padding-top: 20vh;
+  height: 430px;
+   background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.blank_Notification_text {
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.loaderConatiner{
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

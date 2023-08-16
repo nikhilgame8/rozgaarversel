@@ -1,0 +1,130 @@
+.mainContainer {
+  background-color: white;
+  margin: 10px 10px 0px 10px;
+  padding: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dateAndPostType {
+  color: grey;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.contentIndetail {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.logoPlacement {
+  margin-top: 20px;
+}
+
+.Comapany_Name {
+  padding-top: 10px;
+}
+
+.skilltagsContainer {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.CompanyLogo {
+  max-width: 120px;
+  max-height: 300px;
+}
+
+.skillTags {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  width: fit-content;
+  margin-right: 10px;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.featuredListing {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tagFeatured {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7c7c7c;
+  border-radius: 20px;
+  padding: 2px 7px;
+  margin: 3px;
+}
+
+.addonNameIcon {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.AddonName {
+  font-size: 15px;
+  color: #7c7c7c;
+}
+
+.addonContainer {
+  display: flex;
+  align-items: center;
+}
+.dateAndPostType {
+  color: grey;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+.dateAndPostTypeSection {
+  margin-top: 10px;
+}
+.LocationSection {
+  display: flex;
+  align-items: center;
+}
+.timeSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ActionButton{
+  display: block;
+}
+@media (min-width: 768px) {
+  .skillTags {
+    margin: 10px;
+  }
+  .mainContainer {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+  }
+  .title {
+    width: 70%;
+  }
+  .featuredListing {
+    display: none;
+  }
+  .ActionButton{
+    display: none;
+  }
+}

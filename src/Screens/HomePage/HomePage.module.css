@@ -1,0 +1,240 @@
+.HomePageCotainer_web {
+  background-image: linear-gradient(to right, #f7f7f7, #f4efeb);
+  padding: 40px;
+}
+.HomePageCotainer {
+  background-image: linear-gradient(to right, #e8e7e5, #e8e3df);
+  padding: 40px 38px 20px;
+}
+.pageLoader {
+  text-align: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headingMain {
+  color: #000000;
+  
+  font-weight: bolder;
+  font-size: 40px;
+}
+.headingPositionMain {
+  position: absolute;
+  margin-left: 20px;
+  width: 80%;
+  margin-top: 40px;
+  color: white;
+  font-size: 40px;
+  
+}
+
+.headingMainSecondPart {
+  margin-top: -20px;
+ 
+  color: #1778f2;
+  font-weight: bolder;
+  font-size: 40px;
+  
+}
+
+.topTextFirstLine {
+  margin: 0px;
+}
+.topTextSecondLine {
+  margin: 6px;
+}
+.topTextContainer {
+  text-align: center;
+}
+.topThirdLine {
+  text-align: center;
+}
+.PARBtn_Link {
+  text-decoration: none;
+}
+.arrowAndButtonText{
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+.arrowAndButtonText:hover{
+  color: rgb(53, 0, 79);
+}
+
+.arrowAndButtonTextMain{
+  display: flex;
+  align-items: center;
+  
+}
+.arrowAndButtonTextMain:hover{
+  color: rgb(53, 0, 79);
+}
+.headingSecondForH{
+  margin-top: -20px;
+}
+
+.imageText {
+  text-align: center;
+  color: #fff;
+}
+
+.backgroundColor {
+  width: 100%;
+  height: 300px;
+  color: #125552;
+}
+
+.ActionButton_container {
+  position: absolute;
+
+}
+.HireFreelancers {
+  text-align: center;
+}
+.WhyChooseRI {
+  margin: 20px;
+}
+.heading_frelancer {
+  margin: 20px;
+}
+.HireFreelancers_webView {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.bannerContent {
+  color: white;
+  font-weight: 300;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  margin: auto;
+  position: relative;
+  font-weight: 500;
+  top: -10%;
+  width: 90%;
+  padding: 20px 0px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  z-index: 30;
+}
+.closeModal {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  padding: 6px;
+}
+.Message{
+  display: block;
+  font-size: 15px;
+  padding: 10px 12px 20px 12px;
+  text-align: center;
+  font-weight: 400;
+}
+.LoaderCenter{
+  text-align: center;
+}
+.msgbtmcenter{
+  text-align: center;
+}
+.title{
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-weight:500;
+  margin-top: 9px;
+}
+
+.reqHeading{
+  font-weight: 800;
+  font-size: 25px;
+ 
+}
+.borderGreen{
+  height: 1px;
+
+
+  background-color: #4EA656;
+  margin-top: 20px;
+}
+.headingAndBorder{
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.MobviewBanner_image{
+  max-height: 375px;
+  background-color: #f7f8f8;
+}
+
+@media screen and (min-width: 1023px) {
+  
+  .bannerContent {
+    margin-top: 2%;
+
+    width: 50%;
+  }
+  .headingMain{
+    font-size: 60px;
+  }
+  .headingMainSecondPart{
+    font-size: 60px;
+    margin-top: -30px;
+  }
+  .headingPositionMain {
+    margin-left: 50px;
+
+    margin-top: 60px;
+
+    font-size: 60px;
+  }
+  .bannerContent {
+    color: white;
+    margin-top: 20px;
+    font-weight: 300;
+    width: 50%;
+    font-size: 24px;
+  }
+  .modal {
+    background-color: white;
+      margin: auto;
+      position: relative;
+      font-weight: 500;
+      top:-25px;
+      width: 30%;
+      padding: 23px 0px;
+      border-radius: 14px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+      z-index: 30;
+  }
+  .Message{
+    padding: 12px;
+    font-size: 20px;
+  }
+  
+  .title{
+      display: block;
+      font-size: 20px;
+      text-align: center;
+      font-weight:500;
+      margin-top: 18px;
+  }
+  .MobviewBanner_image{
+    max-height:inherit;
+  }
+}

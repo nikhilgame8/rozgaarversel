@@ -1,0 +1,209 @@
+.mainCardContainer {
+  background-color: white;
+
+  padding: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(219, 219, 219);
+  margin: 10px;
+  margin-top: 20px;
+
+  border-radius: 5px;
+}
+.imagecontainer {
+  width: 90px;
+  background-color: rgb(219, 219, 219);
+}
+.workType {
+  color: indigo;
+  font-weight: bolder;
+
+  margin-left: 10px;
+}
+
+.twoSectionDivider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillContainer {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.titleArea {
+  margin-top: 10px;
+}
+
+.postType {
+  margin-left: 5px;
+}
+.skillTags {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  color: #707070;
+  background-color: #f5f5f5;
+  width: fit-content;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.skilltagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statusAndMenu {
+  color: #43ca62;
+  font-size: 20px;
+}
+.menuWithStatus {
+  display: flex;
+  align-items: center;
+}
+.dropDownStatus {
+  align-self: flex-end;
+}
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2%;
+}
+.icondots {
+  margin-top: 6px;
+}
+.icondots:hover {
+  cursor: pointer;
+}
+.workPolicy {
+  padding: 3px 7px;
+
+  background-color: #3db2be;
+  color: white;
+  border-radius: 3px;
+  width: fit-content;
+  font-size: 14px;
+}
+.iconContainer {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.workingType {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobileMenuOption {
+  display: flex;
+}
+.statusAnddate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  color: grey;
+}
+.highlightText {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.Commission {
+  color: #fea11b;
+}
+
+.Contract {
+  color: #486a31;
+}
+.One-Time {
+  color: #365aa9;
+}
+.Monthly {
+  color: #125552;
+}
+.requirementCardButton {
+  padding: 10px;
+  border-width: 1px;
+  border-color: #365aa9;
+  border-style: solid;
+  margin-top: 10px;
+  color: #365aa9;
+  font-size: 14px;
+}
+.requirementCardButton:hover {
+  cursor: pointer;
+}
+.buttonWithIconContainer {
+  display: flex;
+  justify-content: end;
+}
+.colorBlue {
+  color: #365aa9;
+  font-weight: normal;
+}
+.AddonName{
+  font-size: 15px;
+  color: #7c7c7c;
+
+}
+.tagFeatured {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #7c7c7c;
+  border-radius: 20px;
+  padding: 3px 8px;
+
+}
+.featuredListing{
+  display: flex;
+  margin: 18px 0;
+
+}
+
+
+.addonNameIcon {
+  margin-right: 5px;
+ 
+}
+.addonContainer {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .mainContainer {
+    margin: 0px;
+  }
+  .mainCardContainer {
+    margin-right: 10px;
+  }
+  .tagFeatured {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+  .featuredListing{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .leftSectionWidth {
+    width: 50%;
+    margin: 2%;
+  }
+
+  .highlightText {
+    margin-top: 0;
+    justify-content: end;
+
+    display: flex;
+  }
+  .workingType {
+    justify-content: inherit;
+  }
+}

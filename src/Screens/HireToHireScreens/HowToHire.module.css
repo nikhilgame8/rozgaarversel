@@ -1,0 +1,248 @@
+.contentDiv {
+  padding: 20px;
+}
+
+.readMore {
+  font-size: 11px;
+  background: #f1f7ff;
+  width: 20%;
+  padding: 2px;
+  text-align: center;
+  color: #1778f2;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subHeading {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.faqContent {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.faqContentDiv {
+  margin-top: 30px;
+}
+
+.faqSubHeading {
+  font-weight: 800;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.bannerMob {
+
+  margin-top: 10px;
+}
+
+.faqHeading {
+  font-weight: 800;
+  font-size: 48px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.workTypeHeading {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.inputDiv {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 25px;
+  color: #dfdfdf;
+}
+
+.inputArea {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.workTypeSubHeading {
+  text-align: center;
+  font-weight: 600;
+}
+
+.PARBtn_Link {
+  text-decoration: none;
+}
+
+.faq_ActionButton {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .faqMainDiv {
+    margin-top: 30px;
+    justify-content: center;
+    padding-left: 10px;
+  }
+
+  .faqContentDiv {
+    width: 30%;
+  }
+
+  /* .readMore {
+    font-size: 10px;
+    background: #f1f7ff;
+    width: 30%;
+    padding: 1px;
+    color: #1778f2;
+    border-radius: 10px;
+  } */
+
+  .inputDiv {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+  }
+
+  .mainDiv {
+    padding: 60px;
+  }
+
+  .imageDiv {
+    display: flex;
+  }
+
+  .hireImage {
+    margin-left: 35px;
+  }
+
+  .headingDiv {
+    width: 50%;
+    margin-top: 100px;
+  }
+
+  .helpYouHireDiv {
+    margin-top: 70px;
+  }
+
+  .searchInput {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-top: 4px;
+  }
+
+  .workTypeHeading {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .workTypeSubHeading {
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .PARBtn_Link {
+    text-decoration: none;
+  }
+
+  .inputDiv {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .searchIcon {
+    margin-left: 50px;
+  }
+
+  .mainHeading {
+    margin-top: 25px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .subHeading {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .faqHeading {
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 45px;
+  }
+
+  .mapDiv {
+    margin-top: 20px;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .faqInnerDiv {
+    width: 30%;
+    padding-right: 45px;
+  }
+
+  .faqSubHeading {
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .faqText {
+    font-size: 15px;
+  }
+
+  .readMore {
+    width: 80px;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 10px;
+    color: #1778f2;
+    background-color: #f1f7ff;
+    cursor: pointer;
+  }
+
+  .hoetohireSec {
+    width: 80%;
+    margin: auto;
+  }
+
+  .faq_ActionButton {
+    display: flex;
+    justify-content: center;
+  }
+}

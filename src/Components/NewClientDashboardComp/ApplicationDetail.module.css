@@ -1,0 +1,136 @@
+.mainContainer {
+  background-color: white;
+  margin: -10px 10px 10px 10px;
+  padding: 10px 20px 20px;
+}
+
+.budgetContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ApplicationDetail_image {
+  width: 30px;
+  height: 30px;
+}
+
+.budgetAmount {
+  font-size: 14px;
+  color: #7c7c7c;
+}
+.workType {
+  font-size: 14px;
+  color: #7c7c7c;
+  text-align: center;
+}
+.budgetHeading {
+  text-align: center;
+  font-size: 14px;
+}
+.budgetAndWork {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.contentAlign {
+  text-align: center;
+  margin-top: 10px;
+}
+.featuredListing {
+  display: none;
+}
+.tagFeatured {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 10px;
+}
+
+.sponsoredPost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alignButton {
+  text-align: right;
+}
+
+.addonNameIcon {
+  margin-right: 5px;
+  width: 20px;
+}
+.addonContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7c7c7c;
+  border-radius: 20px;
+  padding: 3px 8px;
+}
+.Commission {
+  color: #fea11b;
+}
+
+.Contract {
+  color: #486a31;
+}
+.One-Time {
+  color: #365aa9;
+}
+.Monthly {
+  color: #125552;
+}
+.AddonName {
+  font-size: 15px;
+  color: #7c7c7c;
+}
+.ActionButton {
+  display: flex;
+  justify-content: center;
+}
+.PARBtn_Link {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .budgetAmount {
+    font-size: 30px;
+    color: #000;
+  }
+  .mainContainer {
+    margin: 10px;
+    margin-left: 0;
+  }
+  .budgetContainer {
+    align-items: baseline;
+    justify-content: end;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .workType {
+    font-weight: bold;
+    color: #496a32;
+    text-align: right;
+  }
+  .budgetHeading {
+    text-align: end;
+  }
+  .featuredListing {
+    justify-content: end;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .sponsoredPost {
+    justify-content: end;
+  }
+  .contentAlign {
+    text-align: right;
+  }
+  .AddonName {
+    font-size: 14px;
+  }
+}

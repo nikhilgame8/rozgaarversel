@@ -1,0 +1,61 @@
+.mainContainer {
+  padding: 15px;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.contentArea {
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+
+}
+.PARBtn_Link {
+  text-decoration: none;
+}
+.webImage {
+  display: none;
+}
+.mapWidthMobile {
+  display: flex;
+  margin: auto;
+}
+.mapWidthWeb {
+  display: none;
+}
+
+@media screen and (min-width: 1023px) {
+  .mainContainer {
+    display: flex;
+    width: 90%;
+    padding: 30px;
+    justify-content: space-between;
+  }
+  .contentArea {
+    width: 35%;
+    margin-top: 5%;
+    justify-content: center;
+    display: grid;
+  }
+  .mapWidthWeb {
+    display: inline;
+  }
+  .mobileImage {
+    display: none;
+  }
+  .webImage {
+    display: inline;
+  }
+}
+
+.headingForSEO{
+  font-size: 25px;
+  font-weight: 800;
+}
+@media screen and (min-width: 1366px) {
+  .mainContainer {
+    margin: auto;
+    width: 80%;
+  }
+}

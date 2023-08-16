@@ -1,0 +1,71 @@
+.Text_Container{
+    margin-top: 30px;
+  }
+  .NumericTextContainer{
+    display: flex;
+    padding: 14px;
+    
+  }
+  .Icon{
+    height: 40px;
+    width: 130px;
+    margin-top: 16px;
+    color: #1D7B82;
+  }
+  .NumericTextFirst{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+  }
+  .Paragraph{
+    font-size: 17px;
+    margin: 0px;
+  }
+  .NumericTextParaContainer{
+    padding: 12px 0px 0px 10px;
+  }
+  .MobileMainBannerHireButton{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1D7B82;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    
+    width: 213px;
+    text-align: center;
+  }
+  .MainBannerHireButton{
+    background-color: #1D7B82;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: #fff;
+    
+    width: 211px;
+    text-align: center;
+  }
+  .MobileMainBannerHireLink{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .NumericTextFirst{
+      font-weight: 700;
+      font-size: 17px;
+      padding-top: 5px;
+      margin: 0px;
+    }
+    .Icon{
+      height: 70px;
+      width: 170px;
+      margin-top: 0px;
+      color: #1D7B82;
+    }
+    .Paragraph{
+      font-size: 15px;
+      margin: 0px;
+    }
+  }

@@ -1,0 +1,99 @@
+.rightMenuMain {
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+
+  border-color: #e2e2e2;
+  border-top-width: 0px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.rightMenuMain::-webkit-scrollbar {
+  display: none;
+}
+.leftMenu {
+  padding: 10px;
+
+  margin-left: 10px;
+  text-align: center;
+  width: max-content;
+}
+.leftMenuSelected {
+  padding: 10px;
+
+  margin-left: 10px;
+  text-align: center;
+  width: max-content;
+  color: #1678f2;
+  cursor: pointer;
+  border-radius: 3px;
+  border-bottom: 4px;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.leftMenu:hover {
+  cursor: pointer;
+
+}
+.leftMenuHeading {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+
+  display: flex;
+  align-items: center;
+}
+.menuText {
+  margin-left: 0px;
+  width: inherit;
+}
+.horiTag {
+  width: 90%;
+  text-align: center;
+  border-width: 1px;
+  border-color: #f1f1f1;
+  border-style: solid;
+}
+.linkdesign {
+  text-decoration: none;
+  color: #171717;
+}
+@media (min-width: 768px) {
+  .rightMenuMain {
+    width: 200px;
+    height: 700px;
+    display: inherit;
+    overflow: inherit;
+    margin: 10px;
+    padding-top: 20px;
+  }
+  .leftMenu {
+    display: flex;
+    align-items: center;
+    text-align: inherit;
+    width: inherit;
+  }
+  .menuText {
+    margin-left: 10px;
+  }
+  .leftMenuSelected {
+    color: #1678f2;
+    cursor: pointer;
+    border-radius: 3px;
+    border-right: 4px;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .leftMenu:hover {
+    color: #1678f2;
+    cursor: pointer;
+ 
+  }
+}

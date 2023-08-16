@@ -1,0 +1,105 @@
+.mainDiv {
+  margin-top: 40px;
+}
+.firstContentDiv {
+  display: flex;
+  margin-bottom: 30px;
+}
+.firstSerial {
+  color: #375ba7;
+  text-align: right;
+  font-size: 52px;
+  font-weight: 700;
+  margin-top: 6px;
+  width: 18%;
+  margin-right: 32px;
+}
+.secondSerial {
+  color: #1c5652;
+  font-size: 48px;
+  font-weight: 700;
+  width: 18%;
+  margin: auto;
+  margin-top: 6px;
+  text-align: left;
+}
+.fourthSerial {
+  color: #fa9e27;
+  font-size: 48px;
+  font-weight: 700;
+  width: 18%;
+  margin: auto;
+  margin-top: 6px;
+  text-align: left;
+}
+.thirdSerial {
+  color: #4b6a35;
+  text-align: right;
+  font-size: 52px;
+  font-weight: 700;
+  margin-top: 6px;
+  width: 18%;
+  margin-right: 32px;
+}
+.contentInnerDiv {
+  margin-top: 16px;
+  width: 75%;
+}
+.contentHeading {
+  font-weight: 800;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.contentHeadingSecond {
+  font-weight: 800;
+  font-size: 21px;
+
+  margin-bottom: 10px;
+  text-align: right;
+}
+.firstParagraph {
+  text-align: left;
+  color: #5d5d5d;
+  margin-right: 7px;
+}
+.secondParagraph {
+  text-align: right;
+  color: #5d5d5d;
+  margin-left: 7px;
+}
+@media screen and (min-width: 768px) {
+  .firstSerial {
+    color: #375ba7;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 8px;
+    width: 40%;
+    margin-right: 35px;
+  }
+  .secondSerial {
+    color: #1c5652;
+    font-size: 48px;
+    font-weight: 700;
+    width: 40%;
+    margin-left: 35px;
+    margin-top: 8px;
+  }
+  .fourthSerial {
+    color: #fa9e27;
+    font-size: 48px;
+    font-weight: 700;
+    width: 40%;
+    margin-left: 35px;
+    margin-top: 8px;
+  }
+  .thirdSerial {
+    color: #4b6a35;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 8px;
+    width: 40%;
+    margin-right: 35px;
+  }
+}

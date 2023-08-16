@@ -1,0 +1,55 @@
+.mainContainer{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #395CA6;
+    color: white;
+    padding-bottom: 10%;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 10%;
+}
+.contentDesc{
+    margin-top: 20px;
+   
+
+}
+.futureImage{
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    width: -webkit-fill-available;
+    
+
+}
+
+.whiteBorder{
+    height: 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.buttonContainer{
+    margin-top: 20px;
+}
+.greenButton{
+    width: 50%;
+    background-color: #ffffff;
+    padding: 3px 5px;
+    color:  #395CA6; 
+    text-align: center;
+    border-radius: 25px;
+   font-weight: 500;
+  
+}
+
+.greenButton:hover{
+    background-color: aqua;
+    color: white;
+
+}

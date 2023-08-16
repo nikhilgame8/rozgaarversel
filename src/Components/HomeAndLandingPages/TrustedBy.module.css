@@ -1,0 +1,62 @@
+.mainLogoDiv {
+  width: 100%;
+  margin-top: -10px;
+  height: 90px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: auto;
+}
+
+.logoArea {
+  width: 18%;
+}
+
+
+.mapdivMobile {
+  padding: 5px 0px;
+  outline: none;
+}
+.mancontainerMobile {
+  background-color: #282f39;
+  width: 100%;
+  margin-top: -5px;
+}
+.mob_imgMobile {
+ 
+  margin: auto;
+}
+
+.mainContainer {
+  background-color: #282f39;
+  margin-top: -10px;
+  align-items: center;
+}
+.mapdiv {
+  height: 50px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.mob_img {
+  width: 60%;
+  margin: auto;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logoArea {
+    width: 100px;
+    height: 100px;
+  }
+  .logoAreaWeb{
+    width: 100px;
+    height: 100px;
+  }
+  .mainLogoDiv {
+    max-width: 1366px;
+    margin-top: -10px;
+  }
+ 
+}

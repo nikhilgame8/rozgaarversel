@@ -1,0 +1,38 @@
+.mainContainer {
+  background-color: white;
+  margin: 10px;
+  margin-left: 0;
+  padding: 10px 20px 20px;
+}
+.mainHeading {
+  font-weight: bold;
+  font-size: 18px;
+}
+.iconContainer {
+  padding: 20px;
+  margin-left: 20px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 50%;
+}
+.freelancerName {
+  font-weight: bold;
+}
+
+.nameAndSkillContainer {
+  margin-left: 20px;
+}
+.iconAndUsername {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.connnetOption {
+  color: #1678f2;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.connnetOption:hover {
+  cursor: pointer;
+}

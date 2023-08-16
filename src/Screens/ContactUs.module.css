@@ -1,0 +1,57 @@
+.ContactUs_mainheader {
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.para_text {
+  margin: 30px 20px;
+}
+.contactForm_container {
+  margin-top: 20px;
+}
+.ErrorMessage {
+  color: #ff2222;
+  font-style: italic;
+  font-size: 14px;
+  margin: 0px;
+}
+.ActionButton {
+  display: flex;
+  justify-content: center;
+}
+
+.faq_padding {
+  padding: 30px 0;
+}
+.faq_firstheading {
+  font-size: 30px;
+  font-family: "Poppins";
+}
+.faq_secondheading {
+  color: #5d5d5d;
+  font-size: 16px;
+  padding: 5px 0px 25px 0px;
+  font-family: "Manrope";
+}
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 55%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .para_text {
+    margin: 40px 14vw 50px 14vw;
+  }
+  .ContactUs_mainheader {
+    margin: 10px 10px 10px 0px;
+  }
+}

@@ -1,0 +1,43 @@
+.mainContainer {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.editBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.SkillTab {
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(223, 223, 223);
+  padding: 5px 10px;
+  border-style: solid;
+  width: fit-content;
+  margin: 5px;
+  font-size: 14px;
+}
+.tabContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.SkillTab:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.mainHeading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+@media (min-width: 1023px) {
+  .mainContainer {
+    width: 60%;
+    margin: 10px 0px 0px 10px;
+  }
+}

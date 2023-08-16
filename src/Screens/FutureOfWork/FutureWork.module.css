@@ -1,0 +1,156 @@
+.FutureWork_bannerovertext {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 60%;
+}
+
+.FutureWork_bannerimageweb {
+  display: none;
+}
+.FutureWork_maintext {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 30px;
+}
+.FutureWork_imagefirst {
+  
+  margin: auto;
+  display: block;
+  border-radius: 6px;
+  display: block;
+}
+.FutureWork_imagefirstweb {
+  display: none;
+}
+.FutureWork_text {
+  font-size: 23px;
+  margin: 0px 30px;
+}
+.FutureWork_borderbottomfirst {
+  width: 109px;
+  border-bottom: 3px solid #fb6e00;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.FutureWork_borderbottomsecond {
+  width: 66px;
+  border-bottom: 6px solid #fb6e00;
+  border-radius: 5px;
+  margin: 50px 0px;
+}
+
+.FutureWork_borderbottomthird {
+  width: 77px;
+  border-bottom: 6px solid #1c2f43;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin: 50px 0px;
+}
+.FutureWork_bgcolor {
+  background: #1c2f43;
+  color: #fff;
+}
+.FutureWork_lastheadingfirst {
+  font-size: 33px;
+  font-weight: 200;
+  padding: 20px 20px 0px 20px;
+}
+.FutureWork_lastheadingsecond {
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0px 20px;
+}
+.ActionButton {
+  margin: 0px 20px;
+  display: block;
+}
+.FutureWork_bgcolorwebone {
+  display: block;
+}
+.FutureWork_bgcolorwebtwo {
+  display: none;
+}
+.PARBtn_Link {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (min-width: 1023px) {
+  .FutureWork_bannerimageweb {
+  
+    display: block;
+
+  }
+  .FutureWork_bannerovertext {
+    right: 30px;
+    width: 35%;
+    top: 250px;
+  }
+
+  .FutureWork_bannerimage {
+    display: none;
+  }
+
+  .FutureWork_dflex {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding-top: 75px;
+  }
+  .FutureWork_maintext {
+    text-align: center;
+  }
+  .FutureWork_borderbottomfirst {
+    margin: auto;
+  }
+  .FutureWork_borderbottomthird {
+    align-items: right;
+  }
+
+  .FutureWork_imagefirstweb {
+   
+    display: block;
+    border-radius: 6px;
+  }
+
+  .FutureWork_imagefirst {
+    display: none;
+  }
+  .FutureWork_bgcolorwebone {
+    background: #f2f2f2;
+    display: block;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    color: #000;
+  }
+  .FutureWork_bgcolorwebtwo {
+    background: #1c2f43;
+
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 30px;
+    display: block;
+  }
+  .FutureWork_bgcolor {
+    background: none;
+    display: flex;
+    width: 80%;
+    height: 170px;
+    margin: auto;
+    padding-top: 80px;
+  }
+  .ActionButton {
+    display: none;
+  }
+  .FutureWork_border {
+    border-bottom: 5px solid #fb6e00;
+    width: 20%;
+    padding-top: 10px;
+    margin: auto;
+  }
+}

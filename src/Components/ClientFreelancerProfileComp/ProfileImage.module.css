@@ -1,0 +1,146 @@
+.mainContainer {
+  background-color: #fff;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.uploadIcon {
+  position: absolute;
+  right: 130px;
+  top: 119px;
+}
+.mainProfileImageContainer {
+  height: 200px;
+  background-color: green;
+  width: 100%;
+}
+.mainProfileImage {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.editBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin: -60px 20px 44px 0px;
+}
+.profilePictureNameContainer {
+  margin-top: -153px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.profilePicture {
+  height: 150px;
+  width: 150px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.freelancerName {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.nameAndSkillContainer {
+  text-align: center;
+}
+.skillCat {
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.updateImage {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  border: 1px solid #ece9e9;
+  align-items: center;
+}
+.editBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.mainHeading {
+  font-weight: bold;
+  font-size: 18px;
+}
+.socialContainer {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 8px 0px;
+  justify-content: center;
+}
+.socialIcon {
+  padding-right: 12px;
+  cursor: pointer;
+}
+.flagImage {
+ 
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.profilePictureName{
+ text-align: center;
+ font-size: 40px;
+ font-weight: 600;
+
+ 
+}
+@media (min-width: 1023px) {
+  .profilePictureNameContainer {
+    width: auto;
+    margin-top: -70px;
+    margin-left: 2%;
+  }
+  .uploadIcon {
+    position: absolute;
+    right: 20px;
+    top: 117px;
+  }
+  .mainContainer {
+    background-color: #fff;
+    width: 35%;
+    padding-left: 60px;
+    padding-bottom: 30px;
+  }
+  .skillCat {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .nameAndSkillContainer {
+    text-align: left;
+  }
+  .profilePicture {
+    height: 150px;
+    width: 150px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .socialContainer {
+    text-align: left;
+    padding: 20px 0px;
+  }
+  .iconContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0px;
+    justify-content: unset;
+  }
+}

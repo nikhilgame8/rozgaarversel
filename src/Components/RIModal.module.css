@@ -1,0 +1,241 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: white;
+  margin: auto;
+  position: relative;
+  font-weight: 500;
+  top: -25px;
+  width: 350px;
+  padding: 23px 9px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  z-index: 30;
+}
+.button {
+  width: 70px;
+  color: #f02f39;
+  padding: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ActionBtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.ModalCheckIcon {
+  text-align: center;
+}
+.ModalCheckTextFirst {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.ModalCheckTextSecond {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.modalcheck {
+  height: 40px;
+  width: 40px;
+  margin-top: -90px;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #0c2551;
+  color: #fff;
+  border-color: #0c2551;
+}
+.ModalCheckIconText {
+  text-align: center;
+  font-weight: bold;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+}
+
+.mainModalContainer {
+  background-color: white;
+  margin: auto;
+  position: relative;
+  font-weight: 500;
+  top: -30px;
+  width: 350px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  z-index: 30;
+}
+.closeModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px;
+  color: #000;
+}
+.Message {
+  display: block;
+  font-size: 15px;
+  padding: 10px 12px 0px 12px;
+  text-align: center;
+  font-weight: 400;
+  color: #000;
+}
+.LoaderCenter {
+  text-align: center;
+}
+.msgbtmcenter {
+  text-align: center;
+  color: #000;
+}
+.filterOptionHeadings {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 45px;
+  text-align: left;
+}
+.title {
+  display: none;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  color: #000;
+  margin:45px auto 0px;
+}
+.titleIcon{
+  display: block;
+  margin:45px auto 0px;
+}
+.buttonRedirectText {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  font-size: 20px;
+  color: #1778f2;
+}
+.forwardIcon{
+  margin-top: 12px;
+  width: 32px;
+  height: 32px;
+}
+.skillOption {
+  padding: 2px;
+  border: 1.5px solid #59acbf;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  font-size: 12px;
+  color: #59acbf;
+  cursor: pointer;
+}
+.skillOption:hover {
+  background-color: #59acbf;
+  color: #f3f9ff;
+}
+.tagDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.MessageSkill {
+  margin-top: 5px;
+  font-size: 22px;
+  padding: 10px 12px 0px 13px;
+  font-weight: 600;
+  color: #000;
+}
+.modalContentFilter {
+  overflow-y: scroll;
+  height: 80vh;
+}
+.modalContent{
+  height: 60%;
+  padding: 16px 0px 20px 0px;
+}
+.WorkTypeContainer{
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    margin: 0px 20px;
+    height: 200px;
+  }
+  .mainModalContainer {
+    background-color: white;
+    margin: auto;
+    position: relative;
+    font-weight: 500;
+    top: -25px;
+    width: 550px;
+    padding: 23px 0px;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+    z-index: 30;
+  }
+  .Message {
+    padding: 12px;
+    font-size: 20px;
+  }
+
+  .title {
+    display: block;
+    margin-top: 30px;
+  }
+  .titleIcon{
+    display: none;
+  }
+  .buttonRedirectText {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: 24px;
+    color: #1778f2;
+  }
+  .forwardIcon{
+    margin-top: 12px;
+    width: 40px;
+    height: 40px;
+  }
+}

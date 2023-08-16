@@ -1,0 +1,33 @@
+.mainHeadingContainer {
+ 
+  
+  text-align: center;
+}
+.newHeadingFirst{
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.thirdLine {
+  color: #252525;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.thirdLineWhite {
+  color: #fff;
+  font-size: 20px;
+}
+
+.headingTwo {
+  margin-top: -10px;
+  line-height: 1.2;
+}
+
+
+@media screen and (min-width: 1023px) {
+  .newHeadingFirst{
+    font-size: 35px;
+  }
+}
+
+

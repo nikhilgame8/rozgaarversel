@@ -1,0 +1,562 @@
+.buttonBox {
+  background-color: #1778f2;
+  color: white;
+  height: auto;
+  min-width: 60%;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid transparent;
+}
+.uldropdown {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.buttonBoxsmallForReqCard {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+
+  padding: 5px 5px 5px 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  min-width: 100px;
+  border: 1px solid transparent;
+}
+
+
+.buttonBoxsmallForReqCard{
+  cursor: pointer;
+}
+.flagImage {
+  height: 18px;
+  width: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.dialCode {
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin: 5px 0px 8px 12px;
+}
+.contriesList {
+  height: 200px;
+  overflow: scroll;
+  margin-top: -10px;
+  border: 1px solid #ece9e9;
+  border-top: none;
+  background-color: #fff !important;
+  transition: all 0.3s ease;
+}
+.mobileWrapper {
+  display: flex;
+  align-items: center;
+}
+.dropdownLi {
+  background-color: white;
+  list-style: none;
+  text-align: left;
+  margin: 4px;
+  cursor: pointer;
+}
+.dropdownLi:hover {
+  color: #858585;
+}
+
+.dualButton {
+  display: flex;
+  justify-content: center;
+}
+.buttonBoxdual {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  border: none;
+  min-width: 40%;
+}
+.buttonBoxdualSecond {
+  background-color: #dad1d1;
+  color: rgb(36, 29, 29);
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  border: none;
+  min-width: 40%;
+  margin-right: 10px;
+}
+.buttonBoxWhite {
+  background-color: #ffffff;
+  color: #0f587d;
+  height: auto;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  margin-top: 25px;
+  border: none;
+}
+
+.buttonBoxLeft {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid transparent;
+  min-width: 40%;
+}
+
+.buttonBoxLeft:hover {
+  background-color: white;
+  border-width: 1px;
+  border-color: #8600b0;
+  border-style: solid;
+  color: #8600b0;
+  cursor: pointer;
+}
+.buttonBoxsmall {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+
+  padding: 5px 5px 5px 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  min-width: 100px;
+  border: 1px solid transparent;
+}
+
+.buttonBoxsmall:hover {
+  background-color: white;
+
+  border-color: #8600b0;
+  border-style: solid;
+  color: #8600b0;
+  cursor: pointer;
+}
+
+.smallForReqCard {
+  background-color: #efefef;
+}
+
+.smallForReqCard:hover {
+  background-color: #1778f2;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+.buttonBoxgreen {
+  background-color: #11ce00;
+  color: white;
+  border-radius: 6px;
+
+  padding: 5px 5px 5px 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+  min-width: 100px;
+}
+
+.buttonBoxgreen:hover {
+  background-color: white;
+  border-width: 1px;
+  border-color: #8600b0;
+  border-style: solid;
+  color: #8600b0;
+  cursor: pointer;
+}
+.buttonBoxreject {
+  background-color: white;
+  color:  #ff0000;
+  border-radius: 6px;
+  border-color: #ff0000;
+  padding: 5px 5px 5px 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-width: 1px;
+  min-width: 100px;
+}
+
+.buttonBoxreject:hover {
+  background-color: #ff0000;
+  border-width: 1px;
+  border-color: #ff0000;
+  border-style: solid;
+  color: #ffffff;
+  cursor: pointer;
+}
+.buttonBoxHeader {
+  background-color: #1778f2;
+  color: white;
+  height: 38px;
+  margin: auto;
+  border-radius: 6px;
+  display: flex;
+  padding: 0px 30px;
+  width: 40%;
+  margin-top: 25px;
+  border: none;
+}
+
+.buttonBoxmedium {
+  background-color: #000;
+  color: #fff;
+  height: auto;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  margin-top: 25px;
+  border: none;
+}
+.buttonBoxmedium:hover {
+  cursor: pointer;
+  background-color: #1778f2;
+}
+
+.buttonBoxSignup {
+  background-color: #000;
+  color: #fff;
+  height: auto;
+  display: flex;
+  padding: 5px 3px 5px 3px;
+  border: none;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.buttonBoxSignup:hover {
+  cursor: pointer;
+  background-color: #282f39;
+}
+.buttonText {
+  align-self: center;
+  margin: auto;
+  padding: 0px 10px;
+  font-weight: bold;
+
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.buttonTextSignUp {
+  align-self: center;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.flagContainer {
+  display: flex;
+  border: 1px solid #ece9e9;
+  height: 20px;
+  align-items: center;
+  outline: none;
+  padding: 8px 12px 12px 12px;
+  cursor: pointer;
+  background-color: white;
+  margin: 10px 0px;
+  color: #000;
+}
+.buttonBox:hover {
+  background-color: white;
+  border-width: 1px;
+  border-color: #8600b0;
+  border-style: solid;
+  color: #8600b0;
+  cursor: pointer;
+}
+.buttonBoxWhite:hover {
+  background-color: #1778f2;
+  color: white;
+  cursor: pointer;
+}
+.flagContainerFocus {
+  display: flex;
+  border: 1px solid #1778f2;
+  height: 20px;
+  align-items: center;
+  outline: none;
+  padding: 8px 12px 12px 12px;
+  cursor: pointer;
+  background-color: white;
+  margin: 10px 0px;
+  color: #000;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.inputBoxContainer {
+  padding: 20px;
+}
+
+.inputArea_name {
+  padding: 10px 10px;
+  border: 1px solid #ece9e9;
+
+  outline: none;
+  margin: 10px 0px;
+
+  font-size: 18px;
+}
+.inputArea_name:focus {
+  border-color: #1778f2;
+}
+
+.inputArea {
+  padding: 10px 10px;
+  outline: none;
+  border: 1px solid #ece9e9;
+
+  margin: 10px 0px;
+  font-size: 18px;
+
+  font-family: inherit;
+}
+.inputArea:focus {
+  border-color: #1778f2;
+}
+.inputArea_dropdown {
+  border: 1px solid #ece9e9;
+  height: 45px;
+  font-size: 18px;
+  outline: none;
+  padding: 11px 12px;
+  cursor: pointer;
+  background-color: white;
+  margin: 10px 0px;
+  color: #000;
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 10.127L12 18.127L20 10.127H4Z" fill="%238E8E93"/></svg>');
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 98%;
+}
+
+.uploadIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.inputArea_upload {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 80px;
+  border-radius: 50px;
+  height: 80px;
+  align-items: center;
+}
+.inputArea_withIcon {
+  padding: 10px 12px;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  outline: none;
+}
+.inputArea_withIcon:focus {
+  border-color: #1778f2;
+}
+.option_dropdown {
+  height: 45px;
+  cursor: pointer;
+}
+.input_fields {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  border: 1px solid #ece9e9;
+}
+.input_fields:focus {
+  border-color: #1778f2;
+}
+.eyeIcon {
+  margin-right: 10px;
+  height: 23px;
+  width: 23px;
+  cursor: pointer;
+}
+.tickIcon {
+  color: #2ec72e;
+  margin-right: 10px;
+  height: 24px;
+  width: 24px;
+}
+.CheckboxStyle {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #ece9e9;
+  margin: 7px 0px;
+}
+.CheckBoxInput {
+  display: flex;
+}
+.form_upload_label {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.inputArea_Custom_dropdown {
+  border: none;
+  padding: 6px;
+  width: 100%;
+  font-size: 18px;
+  outline: none;
+  padding-top: 9px;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 98%;
+}
+::placeholder {
+  font-size: 18px;
+  color: #858585;
+}
+.inputAreaDateContainer {
+  width: 100%;
+  border: 1px solid #ece9e9;
+  height: 45px;
+  margin: 15px 0px;
+}
+.inputAreadate {
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.CheckBox_Text {
+  padding-left: 28px;
+}
+.CheckBoxInput_Text {
+  padding-left: 8px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.checkBox_input {
+  height: 19px;
+  cursor: pointer;
+}
+
+.RiTextTransition {
+  color: #000;
+  font-size: 25px;
+  margin-top: -30px;
+}
+
+.mainHeadingContainer {
+ 
+  padding: 10px;
+ 
+}
+
+.newHeadingFirst {
+  margin-bottom: 7px;
+  font-size: 25px;
+font-weight: 800;
+}
+
+.thirdLine {
+  color: #858585;
+  font-size: 20px;
+}
+.thirdLineWhite {
+  color: #fff;
+  font-size: 30px;
+}
+
+.headingTwo {
+  margin-top: -10px;
+  line-height: 1.2;
+  font-size: 40px;
+}
+.input_fields_mobile {
+  border: 1px solid #1778f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.labelWithCheckBox {
+  display: flex;
+  align-items: center;
+}
+
+.labelWithCheckBoxInput {
+  margin-left: 20px;
+}
+.CheckBoxJobAlert{
+  width: 30px;
+  cursor: pointer;
+}
+.JobAlertCheckBox{
+  display: flex;
+  align-items: center;
+}
+.buttonBoxAlert {
+  background-color: #1778f2;
+  color: white;
+  padding: 10px 12px 11px 12px;
+  font-weight: 700;
+  font-size: 10px;
+  border-radius: 0px 6px 6px 0px;
+  border: 1px solid transparent;
+}
+
+.buttonBoxAlert:hover {
+  background-color: white;
+
+  border-color: #8600b0;
+  border-style: solid;
+  color: #8600b0;
+  cursor: pointer;
+}
+@media screen and (min-width: 1023px) {
+  .mainHeadingContainer {
+    font-size: 60px;
+    padding: 0;
+   
+  }
+  .RiTextTransition {
+    color: #000;
+    font-size: 40px;
+    margin-top: -30px;
+  }
+  .newHeadingFirst {
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .buttonBoxdual {
+    min-width: 25%;
+  }
+  .buttonBoxdualSecond {
+    min-width: 25%;
+  }
+  .buttonBoxLeft {
+    min-width: 300px;
+  }
+
+  .buttonBoxLeft {
+    min-width: 300px;
+  }
+}

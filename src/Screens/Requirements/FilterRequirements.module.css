@@ -1,0 +1,52 @@
+.filterContainer {
+  height: auto;
+  width: 25%;
+  background-color: white;
+  padding: 20px;
+}
+
+.filterByHeading {
+  font-weight: bold;
+  padding: 10px 10px 3px 10px;
+  font-size: 20px;
+
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+
+.filterOptionHeadings {
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 10px 3px 10px;
+}
+
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.budgetTextInput {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.textInput {
+  width: 50%;
+  margin: 3px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.goButton {
+  padding: 3px;
+  border: 1px solid gray;
+  height: fit-content;
+
+  border-radius: 3px;
+}
+.goButton:hover {
+  cursor: pointer;
+  background-color: #1678f2;
+  color: white;
+}

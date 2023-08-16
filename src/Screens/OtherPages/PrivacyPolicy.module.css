@@ -1,0 +1,34 @@
+.top_link {
+  margin: 28px 0px;
+  color: #707070;
+}
+.home_link {
+  text-decoration: none;
+  color: #707070;
+}
+.home_link:first-child{
+  color: #1778f2;
+}
+.privacy_container {
+  margin: 20px;
+}
+.privacy_para {
+  margin: 20px 0px 30px;
+}
+.privacy_heading {
+  color: #1778f2;
+}
+.ordered_li {
+  margin: 20px 0px;
+}
+.boldText {
+  font-weight: 700;
+}
+@media screen and (min-width: 1023px) {
+  .privacy_container {
+    margin: 40px 13vw;
+  }
+  .privacy_heading {
+    margin-bottom: 35px;
+  }
+}

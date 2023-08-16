@@ -1,0 +1,73 @@
+.mainContainer{
+    padding: 10px;
+    background-color: white;
+    
+    margin-bottom: 10px;
+   
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.proposalBox{
+padding: 10px;
+}
+
+.updateDate{
+    font-size: 12px;
+    color: gray;
+   
+}
+
+.rejectedColor{
+  
+    color: #D0342C;
+}
+
+.accptedColor{
+    color: #228B22;
+}
+
+.mainHeading{
+    font-weight: 800;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.noProposalHeading{
+    padding: 10px;
+}
+
+.proposalAmount{
+   
+    font-weight: 800;
+
+}
+.chatIcon{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: end;
+}
+.chattag{
+    margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+    .mainContainer {
+          
+    margin-right: 0px;
+    margin-left: 0px;
+        border: 1px solid #c8c8c8;
+        padding: 20px;
+        max-height: 500px;
+        overflow: scroll;
+        margin-top: 10px;
+    }
+    .proposalBox{
+        justify-content: space-between;
+    
+  
+    }
+    
+  }

@@ -1,0 +1,187 @@
+.mainContainer {
+  padding: 20px;
+  background-color: white;
+}
+
+.inputFields_check {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+}
+.checkbox {
+  cursor: pointer;
+}
+.checkbox_text {
+  color: #858585;
+  align-items: center;
+  margin-left: 4px;
+ 
+}
+.forgot_password {
+  color: #858585;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.input_container {
+  margin-top: 25px;
+}
+.LinkText{
+  text-decoration:none ;
+  color: #1778f2;
+}
+.login_with {
+  text-align: center;
+  color: #858585;
+  margin: 30px 0px 8px 0px;
+}
+.terms_link {
+  color: #1778f2;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.checkbox {
+  padding: 2px;
+}
+.ErrorMessage {
+  color: #ff2222;
+  text-align: start;
+
+  font-size: 14px;
+  margin: 0px;
+}
+.CheckIcon{
+  height: 24px;
+  width: 24px;
+  color: #2ec72e;
+}
+.error_message {
+  color: rgb(250, 0, 0);
+  display: flex;
+  text-align: start;
+  align-items: center;
+
+  font-size: 14px;
+  margin: 0px;
+}
+
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 8px 8px;
+  width: 50%;
+  margin-top: 25px;
+  border: none;
+}
+.back_button {
+  background: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.freelancerlink {
+  display: block;
+  color: #13a900;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 30px;
+}
+.nameFields {
+  display: grid;
+}
+.lastName {
+  margin-left: 0px;
+}
+.EmailIcon {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border: 1px solid #ece9e9;
+  margin: 10px 0px 20px 0px;
+  font-size: 18px;
+  justify-content: space-between;
+}
+.EmailText {
+  padding-top: 8px;
+}
+.EmailIconText {
+  font-size: 14px;
+}
+.inputFieldsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.inputFields {
+  width: 48%;
+}
+.loginLink {
+
+  color: #858585;
+  text-align: center;
+  margin: 15px;
+}
+.MainHeading{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .mainContainer {
+    padding: 20px;
+    text-align: center;
+  }
+  .inputFields_check {
+    align-items: center;
+  }
+  .freelancerlink {
+    display: block;
+    color: #13a900;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .mainContainer:h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .forgot_password {
+    display: none;
+  }
+  .loginLink {
+   
+    color: #858585;
+    text-align: center;
+    margin: 15px;
+  }
+  .Pagewrapper {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .Maincontainer_border {
+    width: 40%;
+    margin: auto;
+    border-width: 1px;
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .nameFields {
+    display: flex;
+  }
+  .lastName {
+    margin-left: 20px;
+  }
+}

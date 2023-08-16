@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.border {
+  border-bottom: 1px solid #dedede;
+  width: 90%;
+  margin: auto;
+
+  padding: 10px;
+}
+.helpborder {
+  border-bottom: 1px solid #dedede;
+  width: 40%;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.rsIcon {
+  content: "\20B9";
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bm-burger-button button {
+  width: 50px !important;
+  height: 50px !important;
+}
+.bm-burger-bars {
+  height: 1% !important;
+}
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+.tox-tinymce{
+  border-radius: 0 !important;
+  border: none !important;
+ 
+}
+.tox-statusbar{
+  display: none !important;
+}
+p{
+  line-height: 0;
+}
+.mce-content-body {
+  font-size: 18px !important;
+}
+.mce-content-body:not([dir=rtl])[data-mce-placeholder]:not(.mce-visualblocks)::before{
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}

@@ -1,0 +1,133 @@
+.mainContainer {
+  padding: 20px;
+}
+.SignIn_Heading {
+  color: #0c2551;
+}
+.input_fields {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.input_container {
+  margin-top: 25px;
+}
+.lableDesign {
+  margin: 15px 0px 0px 0px;
+  font-weight: 500;
+  color: #000;
+  display: flex;
+}
+.pageLoader {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  font-weight: 400;
+  color: #292e42;
+  font-family: "Roboto", sans-serif;
+}
+.checkbox_text {
+  color: #858585;
+  font-size: 13px;
+  margin-left: 4px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.lableDesign {
+  margin: 0px 0px 0px 0px;
+  font-weight: 500;
+  color: #292e42;
+}
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 55%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+}
+.CheckboxStyle {
+  margin: 10px 0px 20px 0px;
+}
+.CheckBoxInput {
+  display: flex;
+}
+
+.HeadingText {
+  margin: 10px 0px;
+}
+.radio {
+  margin: 13px 0px;
+}
+.RadioOne {
+  border: 1px solid #ece9e9;
+  padding: 8px;
+}
+.RadioTwo {
+  border: 1px solid #ece9e9;
+  padding: 8px;
+
+  margin-top: 8px;
+}
+.error_message {
+  color: rgb(250, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.PARBtn_Link {
+  text-decoration: none;
+}
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+}
+.Heading_text {
+  margin: 0px;
+}
+.para_text {
+  margin: 4px 0px 15px 0px;
+}
+.back_button {
+  background: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.inputArea {
+  padding: 10px 10px;
+  outline: none;
+  border: 1px solid #ece9e9;
+  margin: 10px 0px;
+}
+.editButton {
+  cursor: pointer;
+  margin: -3px 20px;
+}
+@media screen and (min-width: 1023px) {
+  .Maincontainer_border {
+    padding: 0px 20px;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    margin-top: 20px;
+  }
+  .Pagewrapper {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}

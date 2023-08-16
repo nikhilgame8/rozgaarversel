@@ -1,0 +1,95 @@
+.mainContainer{
+background-color: #F7F8F8;
+position: relative;
+width: 90%;
+color: white;
+
+
+}
+
+.bannerImage{
+    display: flex;
+    margin: auto;
+}
+.mainContent{
+    position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  color: black;
+
+}
+
+.freelancerContent{
+color: #69AE6B;
+}
+
+.textAnimation{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+   
+    
+    width: 100%;
+   
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+}
+
+.ActionButton{
+    position: absolute;
+    /* top: 80%;
+    left: 60%;
+    transform: translate(-50%, -50%); */
+   
+    
+    width: 100%;
+}
+
+
+
+  .PARBtn_Link {
+    text-decoration: none;
+  }
+
+  .arrowAndButtonText{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .arrowAndButtonText:hover{
+    color: rgb(53, 0, 79);
+  }
+
+  .arrowAndButtonTextMain{
+    display: flex;
+    align-items: center;
+    
+  }
+  .arrowAndButtonTextMain:hover{
+    color: rgb(53, 0, 79);
+  }
+
+
+  .headingPositionMain {
+    position: absolute;
+    margin-left: 20px;
+    width: 80%;
+    margin-top: 40px;
+    color: white;
+    font-size: 40px;
+    
+  }
+
+  .headingMain {
+    color: #000000;
+    
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  

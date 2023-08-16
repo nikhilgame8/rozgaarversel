@@ -1,0 +1,110 @@
+.ProposalTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.mainHeading {
+  font-weight: 800;
+  font-size: 25px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.nameContainer {
+  display: flex;
+
+}
+
+.skilltagsContainer {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.skillTags {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  width: fit-content;
+  margin-right: 10px;
+}
+.reqBox{
+padding: 5px;
+  border: 1px solid #bbb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.coloredIcon {
+  margin: 0 4px 0 20px;
+}
+.budgetContainer {
+  margin: 20px 0;
+  font-weight: 500;
+}
+.freelancerProposal {
+  font-size: 17px;
+  font-weight: 400;
+}
+.budgetUnit {
+  font-size: 12px;
+}
+.title {
+  
+font-weight: 400;
+}
+.depositRequested {
+  font-size: 17px;
+  font-weight: bold;
+}
+.heading {
+  font-weight: bold;
+  font-size: 17px;
+}
+.budgetheading{
+  font-weight: bold;
+  font-size: 17px;
+  text-align: right;
+}
+.buttonContainer {
+  display: flex;
+  margin-top: 10px;
+ 
+  margin: auto;
+  justify-content: space-between;
+}
+.addonNameIcon{
+  margin: 0px 3px 0px 10px ;
+}
+.addonContainer{
+  display: flex;
+  align-items: center;
+}
+.addanName{
+display: flex;
+}
+.rejectCustomButton{
+  padding: 10px;
+}
+.thumbsUpIcon{
+ 
+  font-size: 40px;
+  color: #1878F2;
+ 
+  
+}
+.headingWithIcon{
+  text-align: center;
+}
+@media screen and (min-width: 1023px) {
+  .buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .chatButton {
+    margin-right: 30px;
+  }
+}

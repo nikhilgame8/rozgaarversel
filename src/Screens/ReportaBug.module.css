@@ -1,0 +1,124 @@
+.top_link {
+  margin: 10px 0px 30px 0px;
+  color: #707070;
+}
+
+.home_link {
+  text-decoration: none;
+  color: #707070;
+}
+
+.home_link:first-child {
+  color: #1778f2;
+}
+
+
+.reportabug_bgcolor {
+  background: #f7f7f8;
+  padding: 20px;
+}
+
+.reportabug_header {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+.reportabug_heading {
+  padding-bottom: 10px;
+}
+
+.reportabug_border {
+  width: 70%;
+  height: 100px;
+  text-align: center;
+  opacity: 0;
+}
+
+.reportaabug_image {
+  height: 50px;
+  width: 50%;
+  padding-top: 25px;
+}
+
+.input_rozgar {
+  border: 2px dotted #ece9e9;
+  width: 70%;
+  height: 145px;
+  margin-bottom: -100px;
+  margin-top: 10px;
+  text-align: center;
+}
+.reportabug_dropdown {
+  width: 100%;
+  padding: 13px 10px;
+  border-color: #ece9e9;;
+  cursor: pointer;
+  margin: 10px 0px;
+  height: 45px;
+  color: #707070;
+  outline: none;
+  background-color: #fff;
+  text-decoration: none;
+
+}
+.ErrorMessage {
+  color: #ff2222;
+  font-size: 12px;
+  margin-top: 1px;
+}
+.reportabug_Button {
+  background-color: #1778f2;
+  color: white;
+  height: auto;
+  width: 60%;
+  border-radius: 6px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+
+}
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 55%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+
+
+@media screen and (min-width:768px) {
+  .reportabug_bgcolor {
+      background: #f7f7f8;
+      padding: 20px 80px;
+  }
+
+  .reportabug_header {
+      padding: 20px 50px;
+      width: 60%;
+      margin: auto;
+  }
+
+  .input_rozgar {
+      padding-top: 30px;
+      width: 40%;
+      height: 140px;
+  }
+
+  .reportabug_border {
+      width: 40%;
+      height: 111px
+  }
+
+  .reportabug_heading {
+      padding-bottom: 10px;
+  }
+
+}

@@ -1,0 +1,120 @@
+.backGround {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.mainContainer {
+  overflow-x: scroll;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.rectangleBox {
+  height: 340px;
+  width: 200px;
+  min-width: 200px;
+  color: white;
+  margin: 8px;
+  padding: 20px;
+}
+.hireforoptions_padding {
+  padding-bottom: 10px;
+  height: 310px;
+}
+
+.subHeadingStyle {
+  margin-top: 5px;
+}
+
+.headingStyle {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.blue {
+  background-color: #365aa9;
+}
+
+.brown {
+  background-color: #486a31;
+}
+
+.green {
+  background-color: #125552;
+}
+
+.white {
+  background-color: #fea11b;
+}
+
+.knowMore {
+  text-align: right;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.knowMore:hover {
+  cursor: pointer;
+  color: #1778f2;
+}
+
+.bulletSection {
+  font-size: 15px;
+  margin-top: 20px;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.bulletSectionWithMargin {
+  font-size: 15px;
+  margin-top: 10px;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+@media screen and (min-width: 1023px) {
+  .backGround {
+    background-color: white;
+    padding: 40px;
+  }
+
+  .mainContainer {
+    justify-content: center;
+   
+  }
+
+ 
+  .mainContainer {
+    overflow-x: hidden;
+  }
+  .subHeadingStyle {
+    font-size: 14px;
+  }
+  .bulletSection {
+    font-size: 14px;
+  }
+  .bulletSectionWithMargin {
+    font-size: 14px;
+  }
+}
+.rectangleBox {
+  height: 350px;
+  width: 200px;
+
+}
+@media screen and (min-width: 1280px) {
+  .rectangleBox {
+    margin: 25px;
+  }
+  .subHeadingStyle {
+    font-size: 15px;
+  }
+}

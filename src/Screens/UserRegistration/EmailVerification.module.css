@@ -1,0 +1,103 @@
+.mainContainer {
+  padding: 2px 20px 10px 20px;
+  background-color: white;
+}
+.Maincontainer_border {
+  background-color: white;
+}
+.error_message {
+  color: rgb(250, 0, 0);
+  text-align: center;
+}
+.para_text {
+  margin-top: 10px;
+}
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 55%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+}
+.forgot_password {
+  text-align: center;
+  margin-top: 20px;
+}
+.resend_code {
+  color: #858585;
+  text-align: center;
+  margin-top: 10px;
+}
+.resend_code_link {
+  color: #1778f2;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+}
+.outer_otp_div {
+  width: 190px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.otp_div {
+  position: sticky;
+  left: 0;
+}
+
+.otp_input {
+  padding-left: 10px !important;
+  letter-spacing: 33px;
+  font-size: 30px !important;
+  border: 0 !important;
+  background-image: linear-gradient(
+    270deg,
+    #616161 70%,
+    hsla(0, 0%, 100%, 0) 0
+  );
+  background-position: bottom;
+  background-size: 50px 2px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px !important;
+  min-width: 220px;
+  border-radius: 0;
+  outline: none;
+  margin: 20px 0px;
+}
+.back_button {
+  background: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+@media screen and (min-width: 1024px) {
+  .mainContainer {
+    padding: 20px 30px;
+  }
+  .Pagewrapper {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .Maincontainer_border {
+    width: 40%;
+    margin: auto;
+    border-width: 1px;
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    margin-top: 20px;
+  }
+}

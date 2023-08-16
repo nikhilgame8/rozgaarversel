@@ -1,0 +1,226 @@
+.mainContainer {
+  padding: 20px;
+}
+.input_fields {
+  display: flex;
+  flex-direction: column;
+}
+.input_container {
+  margin-top: 25px;
+}
+.textArea {
+  padding: 13px 10px;
+  border: 1px solid #ece9e9;
+  height: 24px;
+  margin: 10px 0px;
+}
+.label {
+  margin-top: 20px;
+}
+.pageLoader {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.labelSkill {
+  margin-top: 10px;
+}
+.checkbox_text {
+  color: #858585;
+  font-size: 13px;
+  margin-left: 4px;
+}
+.contentContainer {
+  padding: 10px;
+  margin-top: 20px;
+  border-width: 1px;
+  display: flex;
+  border-color: grey;
+  border-style: solid;
+}
+.contentArea {
+  margin-left: 10px;
+}
+
+.headingRequirementType {
+  font-weight: bold;
+}
+
+.buttonPlacement {
+  width: 70%;
+  padding: 20px;
+  margin: auto;
+}
+
+.radioButton {
+  color: yellow;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.CheckboxStyle {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #ece9e9;
+  margin: 20px 0px;
+}
+.CheckBox_Text {
+  padding-left: 40px;
+}
+.CheckBoxInput {
+  display: flex;
+  align-items: center;
+}
+.CheckBoxInput_Text {
+  padding-left: 8px;
+  font-weight: bold;
+  margin: 0;
+}
+.CheckboxStyle {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #ece9e9;
+  margin: 7px 0px;
+}
+.CheckBox_Text {
+  padding-left: 28px;
+}
+.CheckBox_RightText {
+  background-color: #292e42;
+  padding: 0px 12px;
+  height: 4vh;
+  margin: -13px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #fff;
+  width: 8vw;
+  text-align: center;
+}
+.CheckBoxInput {
+  display: flex;
+}
+.CheckBoxInput_Text {
+  padding-left: 8px;
+  margin: 0;
+}
+.TotalAmountText {
+  text-align: right;
+  padding: 10px;
+}
+.AmountText {
+  font-weight: bold;
+  font-size: 18px;
+}
+.TermsCondition_Text {
+  margin-top: 20px;
+}
+.RiTextInputsStyle {
+  margin-top: 18px;
+}
+.RiTextInputsDropDown {
+  margin-top: 14px;
+}
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+}
+.Heading_text {
+  margin: 0px;
+}
+.para_text {
+  margin: 4px 1px 15px 1px;
+}
+.back_button {
+  background: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.lableDesign {
+  margin: 15px 0px 0px 0px;
+  font-weight: 500;
+  color: #000;
+  display: flex;
+}
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 55%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+}
+.LogoImage {
+  padding: 10px 10px;
+  outline: none;
+  display: flex;
+  text-align: center;
+  height: 200px;
+  width: 50%;
+  margin: 10px 0px 30px;
+  font-size: 18px;
+}
+@media screen and (min-width: 1023px) {
+  .Maincontainer_border {
+    padding: 0px 20px;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    margin-top: 20px;
+  }
+  .Pagewrapper {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+.CheckBox_Text {
+  padding-left: 28px;
+}
+.CheckBoxInput_Text {
+  padding-left: 8px;
+  margin: 0;
+}
+.RadioOne {
+  border: 1px solid #ece9e9;
+  padding: 8px;
+  margin-top: 15px;
+}
+.RadioTwo {
+  border: 1px solid #ece9e9;
+  padding: 8px;
+  margin-top: 8px;
+}
+.TextInputRadioSelected {
+  margin-top: 20px;
+}
+.selectoption {
+  margin-left: 10px;
+}
+.Skillcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 14px;
+}
+.Skill {
+  width: 100%;
+  padding: 5px 0px;
+  margin: 0px 4px;
+}

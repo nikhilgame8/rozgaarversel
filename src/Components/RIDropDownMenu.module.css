@@ -1,0 +1,67 @@
+.mainContainer {
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-color: rgb(224, 224, 224);
+  border-style: solid;
+  position: absolute;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all 0.5s ease-out;
+  right: 10%;
+}
+.menuOptions {
+  padding: 12px 10px;
+}
+.TotalAmountText {
+  text-align: right;
+  padding: 5px 20px;
+}
+.menuOptions:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.buttonAlignment {
+  text-align: center;
+  margin: 0px;
+}
+.closePostHeading {
+  font-size: 24px;
+  margin-top: -10px;
+}
+.closePostButtons {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.btnContainer {
+  padding: 10px 0px 3px 0px;
+}
+.closePostHeading {
+  font-size: 20px;
+}
+.closePostButtonsConatiner {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .closePostButtons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  .btnContainer {
+    padding: 20px 0px 10px 0px;
+  }
+  .closePostButtonsConatiner {
+    display: flex;
+    justify-content: center;
+  }
+  .mainContainer {
+    right: 25%;
+  }
+}

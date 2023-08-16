@@ -1,0 +1,148 @@
+.mainDiv {
+  max-width: 800px;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.input {
+  width: 100%;
+  height: 42px;
+  margin-top: 5px;
+  border: 1px solid #ededed;
+  flex-direction: column;
+  display: flex;
+  padding: 12px;
+  outline: none;
+  font-size: 18px;
+}
+.skillSuggestionList {
+  padding: 6px;
+}
+
+.skillSuggestionList:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}
+.dropdown_items_active {
+  background-color: #1678f2;
+  color: #fff;
+}
+.primary {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+}
+.input {
+  padding: 10px 10px;
+  outline: none;
+  border: 1px solid #ece9e9;
+  margin: 10px 0px;
+  font-size: 18px;
+}
+.input:focus {
+  border-color: #1778f2;
+}
+
+.suggestion {
+  max-width: 493px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 3px;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.suggestion p {
+  padding: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0;
+}
+
+.skillSuggestionList {
+  padding: 6px;
+ 
+}
+
+.skillSuggestionList:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}
+
+p:hover {
+  background-color: #ededed;
+}
+.icon {
+  position: absolute;
+  margin-left: 49vw;
+  margin-top: 13px;
+  align-items: flex-end;
+}
+
+#Search {
+  padding-left: 48px;
+  padding-top: 1px;
+  font-size: 22px;
+  color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: 0;
+}
+
+#Search::-webkit-search-cancel-button {
+  position: relative;
+  right: 20px;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: black;
+}
+.searchIcon {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+.highlighted {
+  background: #ededed;
+}
+.tagMainDiv {
+  margin-bottom: 6px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.suggestionTag {
+  background-color: #1678f2;
+  margin: 4px 4px;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 7px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  height: fit-content;
+}
+.suggestionTagFirst {
+  background: linear-gradient(45deg, #4568dc, #b06ab3);
+  margin: 4px 4px;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 7px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.closeIcon {
+  margin-top: 4px;
+  align-items: center;
+  margin-left: 6px;
+  float: right;
+}
+
+@media only screen and (min-width: 1024px) {
+  .mainDiv {
+    flex-direction: column;
+    margin: 0 0px;
+  }
+}

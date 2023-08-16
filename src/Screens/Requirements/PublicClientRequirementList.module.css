@@ -1,0 +1,399 @@
+.pageLayout {
+  padding: 15px;
+  
+}
+
+.Overflow::-webkit-scrollbar {
+  display: none;
+}
+.pageDivider {
+  display: flex;
+}
+
+.filterContainer {
+  height: auto;
+  width: 25%;
+  background-color: white;
+  padding: 20px;
+}
+
+.filterByHeading {
+  font-weight: bold;
+  padding: 10px 10px 3px 10px;
+  font-size: 20px;
+
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+
+.filterOptionHeadings {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+  
+}
+.filterOptionHeadingsContainer{
+  padding-left: 3px;
+  padding-top: 3px;
+}
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.WorkTypeContainer{
+  padding-left: 8px;
+}
+.budgetTextInput {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.textInput {
+  width: 50%;
+  margin: 3px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.goButton {
+  padding: 3px;
+  border: 1px solid gray;
+  height: fit-content;
+
+  border-radius: 3px;
+}
+.goButton:hover {
+  cursor: pointer;
+  background-color: #1678f2;
+  color: white;
+}
+
+.sortAndRequirmentContainer {
+
+  background-color: white;
+  margin-left: 10px;
+}
+
+.sortAndPageContainer {
+ padding-left: 4px;
+}
+.sortContainer {
+  display: flex;
+  overflow: hidden;
+  width: 85%;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.sortHeading {
+  font-weight: bold;
+  border-bottom: 2px solid #1678f2;
+  color: #1678f2;
+}
+
+.sortHeading:hover {
+  cursor: pointer;
+}
+
+
+.sortOptions:hover {
+  cursor: pointer;
+}
+.sortOptionSelected {
+  border-bottom-color: #c07fff;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+ width: fit-content;
+  color: #c07fff;
+  font-weight: bold;
+}
+
+.sortOptionSelected:hover {
+  cursor: pointer;
+}
+
+.pageNumbersContainer {
+  display: flex;
+  margin-right: 10%;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.pageNumbersContainerBottom {
+  display: flex;
+  margin-right: 10%;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+  justify-content: end;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.pageCount {
+  background-color: #1778f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 28px;
+  margin: 2px 6px;
+  color: #fff;
+  font-size: 14px;
+  height: 28px;
+}
+.searchBarContainer {
+
+  display: flex;
+ 
+
+  width: 100%;
+}
+.searchIcon {
+  padding: 10px 12px;
+  height: 22px;
+  background-color: #1678f2;
+  color: white;
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+  background-color: #0c58b4;
+}
+
+.searchInput {
+  padding: 3px 0px;
+  width: 85%;
+}
+.searchInput:focus {
+  outline: none;
+
+  border: 1px solid #1678f2;
+  border-right-width: 0px;
+}
+.searchInput::placeholder {
+  font-size: 16px;
+  color: rgb(197, 197, 197);
+}
+
+.borderLine {
+  border-bottom: 1px solid #dedede;
+  width: 40%;
+}
+
+.buttons1 {
+  display: flex;
+}
+.pageCountIcon {
+  color: #1778f2;
+  margin: 2px 6px;
+}
+.pageCountIcon:hover {
+  cursor: pointer;
+}
+.PaginationContainer {
+  padding: 22px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.pageCountData{
+  padding: 2px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content:center ;
+}
+.buttonone {
+  color: #fff;
+  background-color: #1778f2;
+  padding: 5px 12px 3px 12px;
+  border: none;
+  margin-left: 4px;
+  margin-right: 3px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttononeDisable {
+  color: #fff;
+  background-color: #1778f2;
+  padding: 5px 12px 3px 12px;
+  box-shadow: 0 8px 6px -6px black;
+  border: none;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 16px;
+  border-radius: 5px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.CurrentPageText{
+  background-color:  #1778f2;
+  border-radius: 50%;
+  padding: 4px 10px;
+  margin-right: 4px;
+  color: #fff;
+  margin-left: 8px;
+  font-size: 12px;
+  box-shadow: 0 8px 6px -6px black;
+}
+.CurrentPageNext{
+ background-color:  #1778f2;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: #fff;
+  margin-left: 8px;
+  font-size: 12px;
+  box-shadow: 0 8px 6px -6px black;
+}
+.CurrentPageTextNext{
+  background-color:  #1778f2;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: #fff;
+  margin-left: 8px;
+  opacity: .5;
+  font-size: 12px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.buttononePre{
+  color: #fff;
+  background-color: #1778f2;
+  padding: 3px 12px 0px 12px;
+  border: none;
+  margin-left: 6px;
+  margin-right: 2px;
+  border-radius: 5px;
+  opacity: 0.5;
+  font-size: 16px;
+}
+.pageHeading{
+ padding-left: 4px;
+ 
+}
+.pageHeadingTwo{
+  padding-left: 4px;
+  margin-top: -2%;
+}
+.joinFreelancer{
+  color: #1778f2;
+  cursor: pointer;
+}
+
+.skillOption {
+  padding: 8px;
+  border: 1.5px solid #59acbf;
+  border-radius: 8px;
+  text-align: center;
+  margin: 5px;
+  font-size: 12px;
+  color: #59acbf;
+  cursor: pointer;
+}
+.skillOption:hover {
+  background-color: #59acbf;
+  color: #f3f9ff;
+}
+.tagDisplay {
+  display: flex;
+  flex-wrap: wrap;
+}
+.setoverFlow {
+  overflow: scroll;
+}
+
+.filter{
+  display: flex;
+  margin: 13px 12px;
+ 
+  
+}
+.filtertag{
+  padding: 4px;
+}
+.filterbtn{
+  padding: 10px 16px;
+  cursor: pointer;
+  border: transparent;
+  color: white;
+  background-color: #2b7de9;
+}
+.sortHeadingFilterContainer{
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .pageLayout {
+    padding: 15px;
+    background-color: #f5f6fb;
+  }
+  .PaginationContainer {
+    padding: 10px 22px 10px 22px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .pageCountData{
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .searchInput {
+    padding: 3px 0px;
+    width: 100%;
+  }
+  .sortAndPageContainer {
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0px;
+    justify-content: space-between;
+  }
+  .pageNumbersContainer {
+    justify-content: inherit;
+    margin-top: 0;
+  }
+  .sortContainer {
+    display: grid;
+    justify-content: inherit;
+  
+    
+  }
+  .searchIcon {
+    padding: 10px 12px;
+    height: 22px;
+    background-color: #1678f2;
+    color: white;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+  }
+  .pageHeading{
+    padding-left: 34px;
+    
+   }
+   .pageHeadingTwo{
+     padding-left: 34px;
+     margin-top: -2%;
+   }
+
+ 
+}

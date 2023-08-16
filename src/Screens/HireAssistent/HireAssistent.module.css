@@ -1,0 +1,180 @@
+.pageLayoutContainer {
+  background-color: #f5f6fb;
+  display: flex;
+}
+.pageLayout {
+  width: 100%;
+  margin-top: 10px;
+  background: #fff;
+}
+.BtnGateway {
+  border: 1px solid;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 0px 12px;
+  margin-top: 10px;
+}
+
+.MobileMainBannerImgTextFirst {
+  position: absolute;
+  padding: 48px 0px 0px 20px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px;
+}
+.MobileMainBannerImgTextSecond {
+  position: absolute;
+  padding: 80px 0px 0px 20px;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0px;
+}
+.MobileMainBannerHireButton {
+  margin: 135px 0px 0px 20px;
+  position: absolute;
+}
+.BannercardContanier {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  margin-top: -80px;
+}
+.Bannercard {
+  height: 120px;
+  min-width: 100px;
+  margin: 8px 12px;
+  padding: 20px;
+  box-shadow: 5px 0px #fff;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px;
+}
+.BannercardIcon {
+  display: flex;
+  margin: auto;
+  
+}
+.BannercardTextFirst {
+  text-align: center;
+  font-size: 11px;
+  padding-top: 10px;
+  margin: 0px;
+}
+.BannercardTextSecond {
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 0px 8px 0px;
+  margin: 0px;
+}
+.SecondBannerImgContainer {
+  margin-top: 40px;
+}
+
+.SecondBannerTextContainer {
+  position: absolute;
+  padding: 16px 0px 0px 20px;
+}
+.SecondBannerTextFirst {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0px;
+}
+.SecondBannerTextSecond {
+  font-size: 16px;
+  font-weight: 900;
+  margin: 0px;
+}
+.SecondBannerTextThird {
+  font-size: 16px;
+  font-weight: 900;
+  margin: 0px;
+}
+.SecondBannerHireButton {
+  margin: 10px 0px;
+}
+
+.HireAssistantMainContainer {
+  position: absolute;
+  margin: 80px 0px 0px 50px;
+}
+.WebMainBannerImgTextFirst {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0px;
+}
+.WebMainBannerImgTextSecond {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0px;
+}
+.WebMainBannerHireButton {
+  margin: 135px 0px 0px 0px;
+  margin-top: 22px;
+  width: 212px;
+}
+.WebBannercardContanier {
+  display: flex;
+  width: 93%;
+  margin-top: -80px;
+  padding: 0px 32px;
+  justify-content: space-around;
+}
+.WebBannercard {
+  height: 200px;
+  width: 100%;
+  margin: 8px 12px;
+  padding: 20px 0px;
+  box-shadow: 5px 0px #fff;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px;
+}
+.WebBannercardIcon {
+  display: flex;
+  margin: auto;
+  
+}
+.WebBannercardTextFirst {
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 25px 0px 25px;
+  margin: 0px;
+}
+.WebBannercardTextSecond {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px 25px 0px 25px;
+  margin: 0px;
+}
+.Text_Container {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.SecondBannerImgSpace {
+  width: 50%;
+}
+.WebSecondBannerTextContainer {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
+.WebSecondBannerTextFirst {
+  font-size: 22px;
+  font-weight: 900;
+  margin: 0px;
+}
+.WebSecondBannerTextSecond {
+  font-size: 35px;
+  font-weight: 900;
+  margin: 0px;
+}
+.WebSecondBannerTextThird {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0px;
+}
+.WebSecondBannerImgContainer {
+  position: relative;
+  margin-top: 40px;
+}

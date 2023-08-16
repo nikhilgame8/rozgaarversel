@@ -1,0 +1,130 @@
+.error_message {
+  color: rgb(250, 0, 0);
+  text-align: center;
+}
+.success_message {
+  color: #1778f2;
+  text-align: center;
+}
+.para_text {
+  margin-top: 10px;
+}
+.LoadingBtn {
+  background-color: #1778f2;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 55%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+}
+.forgot_password {
+  text-align: center;
+  margin-top: 20px;
+}
+.resend_code {
+  color: #858585;
+  text-align: center;
+  margin-top: 10px;
+}
+.resend_code_link {
+  color: #1778f2;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+}
+.outer_otp_div {
+  width: 190px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.otp_div {
+  position: sticky;
+  left: 0;
+}
+
+.otp_input {
+  padding-left: 10px !important;
+  letter-spacing: 33px;
+  font-size: 30px !important;
+  border: 0 !important;
+  background-image: linear-gradient(
+    270deg,
+    #616161 70%,
+    hsla(0, 0%, 100%, 0) 0
+  );
+  background-position: bottom;
+  background-size: 50px 2px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 220px !important;
+  min-width: 220px;
+  border-radius: 0;
+  outline: none;
+  margin: 20px 0px;
+}
+.back_button {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cancelModel {
+  text-align: end;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+}
+
+.modal {
+  background-color: white;
+  margin: auto;
+  
+  position: relative;
+  font-weight: 500;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  z-index: 30;
+}
+.backIcon {
+  cursor: pointer;
+}
+.button {
+  width: 70px;
+  color: #1778f2;
+  padding: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mainContainer {
+  padding: 0px 30px;
+}
+@media screen and (max-width: 1023px) {
+  .modal {
+    width: 80%;
+   top: -25px;
+  }
+}

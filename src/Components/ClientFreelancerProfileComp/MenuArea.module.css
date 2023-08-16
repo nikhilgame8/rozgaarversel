@@ -1,0 +1,95 @@
+.mainContainer {
+  background-color: white;
+  margin-top: 10px;
+}
+.CrossIconContainer {
+  display: flex;
+}
+.experienceListContainer {
+  border: 1px solid #ece9e9;
+  padding: 10px;
+  margin: 10px 20px;
+  border-radius: 3px;
+  width: 100%;
+}
+.updateImage {
+  display: flex;
+  
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ece9e9;
+  align-items: center;
+}
+.fileIcon {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 34px;
+  border: 1px solid #ece9e9;
+}
+.menuContainer {
+  padding: 10px;
+  display: flex;
+  background-color: #f0efef;
+  justify-content: space-between;
+  overflow: scroll;
+}
+.menuOptions {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menuOptions:hover {
+  cursor: pointer;
+  color: #1678f2;
+}
+.selectedMenu {
+  border-bottom-width: 3px;
+  border-bottom-color: #1678f2;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom-style: solid;
+}
+.portfolioImageContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.selectedMenu:hover {
+  cursor: pointer;
+  color: #1678f2;
+}
+.portofolioImage {
+  width: 100%;
+}
+.imageDiv {
+  height: 200px;
+  margin: 20px;
+  width: 200px;
+}
+.imageMainArea {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.certificationListContainer {
+  border: 1px solid #ece9e9;
+  padding: 10px;
+  margin: 10px 20px;
+  border-radius: 3px;
+  width: 90%;
+}
+.CertificationContainer {
+  display: flex;
+  width: 100%;
+}
+.editBtn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+@media (min-width: 1023px) {
+  .menuContainer {
+    overflow: hidden;
+  }
+}

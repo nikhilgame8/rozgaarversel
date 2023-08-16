@@ -1,0 +1,152 @@
+.banner{
+    width: 100%;
+    height: 499px;
+    object-fit: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+
+}
+.bannerDiv{
+    position: absolute;
+    width: 100%;
+}
+.bannerDiv .banner{
+    opacity: 0.5;
+  }
+  
+.articleTitleMargin{
+    font-size: 34px;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    margin: 0px;
+}
+.icon{
+    color: #848484;
+    font-size: 13px;
+    margin-right: 4px;
+}
+.watchIcon{
+    color: #848484;
+    font-size: 16px;
+    margin-right: 4px;
+}
+.recommendedArticles{
+    font-size: 34px;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    margin: 0px;
+    padding-top: 40px;
+}
+.recommendedArticlesSubHeading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 15px;
+    margin: 0px;
+}
+.cardMainDiv{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cardHeading{
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+padding-top: 4px;
+
+}
+.articleCardInfoDiv{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+    font-size: 12px;
+}
+.infoMainDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.cardContent{
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    margin: 0px;
+padding-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.image{
+   
+    object-fit: cover;
+}
+.cardInnerDiv{
+    margin-right: 20px;
+    width: 23%;
+}
+.shadowDiv{
+
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.shadowMainDiv{
+    padding: 60px;
+}
+
+
+.postedDateDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+.iconDiv{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #5d5b5b;
+    float: right;
+    text-align: center;
+}
+.iconLink{
+    text-decoration: none;
+    color: black;
+}
+.postedText{
+    font-size: 16px;
+    font-weight: 800;
+    float: right;
+}
+.shadowDivHeading{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1px;   
+    text-align: center;
+    margin-top: 55px;
+}
+.contentMainDiv{
+    padding-top: 15px;
+}
+.shadowDivContentHeading{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 10px 0 10px 0;
+    padding-top: 10px;
+}

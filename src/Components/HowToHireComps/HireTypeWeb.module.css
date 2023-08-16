@@ -1,0 +1,55 @@
+.mainDiv {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.contentDiv {
+  display: flex;
+  margin-bottom: 40px;
+}
+.secondTypeDiv {
+  width: 40%;
+  text-align: left;
+  font-weight: 800;
+  font-size: 40px;
+  margin-left: 43px;
+}
+.typeDiv {
+  width: 40%;
+  text-align: right;
+  font-weight: 800;
+  font-size: 40px;
+  margin-right: 49px;
+}
+.secondParagraph {
+  width: 40%;
+  padding: 10px;
+  text-align: right;
+  margin-right: 30px;
+}
+.paragraph {
+  width: 40%;
+  padding: 10px;
+  margin-left: 30px;
+}
+.borderDivFirst {
+  border: 2px solid #375ba7;
+  height: 70px;
+  margin-top: 20px;
+}
+.borderDivSecond {
+  border: 2px solid #1c5652;
+  height: 70px;
+  margin-top: 20px;
+}
+.borderDivThird {
+  border: 2px solid #4b6a35;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.borderDivFourth {
+  border: 2px solid #1c5652;
+  height: 70px;
+  margin-top: 20px;
+}

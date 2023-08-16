@@ -1,0 +1,373 @@
+.mainContainer {
+  background-color: white;
+}
+
+.mainCardContainer {
+  background-color: white;
+  padding: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(219, 219, 219);
+
+  margin-top: 20px;
+
+  border-radius: 5px;
+}
+.imagecontainer {
+  width: 90px;
+  background-color: rgb(219, 219, 219);
+}
+.workType {
+  color: indigo;
+  font-weight: bolder;
+
+  margin-left: 10px;
+}
+
+.twoSectionDivider {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.skillContainer {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.titleArea {
+  margin-top: 10px;
+}
+
+.postType {
+  margin-left: 5px;
+}
+.skillTags {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  color: #707070;
+  background-color: #f5f5f5;
+  width: fit-content;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.skilltagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statusAndMenu {
+  font-weight: bold;
+  font-size: 20px;
+}
+.menuWithStatus {
+  text-align: left;
+}
+.dropDownStatus {
+  align-self: flex-end;
+}
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2%;
+}
+.icondots {
+  margin-top: 6px;
+}
+.icondots:hover {
+  cursor: pointer;
+}
+.workPolicy {
+  padding: 3px 7px;
+  background-color: #3db2be;
+  color: white;
+  border-radius: 3px;
+  width: fit-content;
+  font-size: 14px;
+}
+.iconContainer {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.workingType {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+.mobileMenuOption {
+  display: flex;
+}
+.statusAnddate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  color: grey;
+}
+.highlightText {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.Commission {
+  color: #fea11b;
+}
+
+.Contract {
+  color: #486a31;
+}
+.One-Time {
+  color: #365aa9;
+}
+.Monthly {
+  color: #125552;
+}
+.requirementCardButton {
+  padding: 10px;
+  border-width: 1px;
+  border-color: #365aa9;
+  border-style: solid;
+  margin-top: 10px;
+  color: #365aa9;
+  font-size: 14px;
+}
+.requirementCardButton:hover {
+  cursor: pointer;
+}
+.buttonWithIconContainer {
+  display: flex;
+  justify-content: end;
+}
+.colorBlue {
+  color: #365aa9;
+  font-weight: normal;
+}
+.workStatus {
+  background-color: #d6ffe3;
+  border-radius: 5px;
+  padding: 5px;
+
+  font-weight: bold;
+  font-size: 14px;
+  color: #43c962;
+  width: fit-content;
+}
+
+.postedDate {
+  font-style: italic;
+  color: grey;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.budgetUnit {
+  font-size: 13px;
+  font-weight: 500;
+}
+.AddonName{
+  font-size: 15px;
+  color: #7c7c7c;
+
+}
+.tagFeatured {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+ 
+margin-bottom: 5px;
+}
+.featuredListing{
+  display: flex;
+  margin: 4px 0 18px 0;
+flex-wrap: wrap;
+}
+
+
+.addonNameIcon {
+  margin-right: 5px;
+ width: 16px;
+}
+.addonContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7c7c7c;
+  border-radius: 20px;
+  padding: 3px 8px;
+  
+}
+.noRequirement{
+  padding-left: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.mainContainer{
+  margin-bottom: 50px;
+}
+
+.titleSkill{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.reqSection{
+  padding: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.dateAndStatusContainer{
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+
+  
+  
+}
+.dateArea{
+  font-size: 12px;
+  color:#878787 ;
+  margin-left: 10px;
+  font-weight: 600
+
+}
+.newTag{
+  padding: 2px 10px;
+  border-radius: 10px;
+  background-color: #3E70B4;
+  width: fit-content;
+  font-weight: 600;
+  color: white;
+  font-size: 12px;
+}
+
+.mainReqPoints{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+
+}
+.reqPointsContainer{
+
+}
+
+.priceFont{
+  font-size:14px;
+  font-weight: 600;
+}
+.priceType{
+  font-size: 12px;
+  color:#878787 ;
+  font-weight: 600;
+}
+
+.shortDesc{
+  margin-top: 10%;
+  font-size: 14px;
+}
+
+.skillTags{
+  padding: 3px 10px;
+  background-color: #E3ECE4;
+  font-size: 12px;
+  width: -moz-fit-content;
+  /* width: fit-content; */
+  border-radius: 10px;
+  margin: 5px;
+  font-weight: 500;
+}
+.skillTagContainer{
+  display: flex;
+  margin-top: 5%;
+
+
+}
+.buttonContainer{
+  margin-top: 20px;
+}
+.greenButton{
+  width: 70%;
+  background-color: #4EA656;
+  padding: 3px 5px;
+  color: white; 
+  text-align: center;
+  border-radius: 25px;
+ font-weight: 500;
+  margin: auto;
+}
+.borderGreen{
+  height: 1px;
+
+  background-color: #4EA656;
+  margin-top: 40px;
+}
+
+
+.moreJobsButton{
+  padding: 5px 10px;
+  border: 1px solid #4EA656;
+  border-radius: 25px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 600; 
+  
+}
+
+.skilltagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+.moreJobsButton:hover{
+  background-color:#4EA656 ;
+  color: white;
+}
+.noRequirementFoundText{
+  padding-left: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .mainContainer {
+    padding: 15px;
+    margin-left: 10px;
+  }
+  .twoSectionDivider {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .menuWithStatus {
+    text-align: right;
+  }
+  .mainCardContainer {
+    width: 70%;
+    margin-right: 10px;
+  }
+  .leftSectionWidth {
+    width: 50%;
+    margin: 2%;
+  }
+
+  .highlightText {
+    margin-top: 0;
+    justify-content: end;
+
+    display: flex;
+  }
+  .noRequirementFoundText{
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

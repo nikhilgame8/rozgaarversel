@@ -1,0 +1,22 @@
+.mainContainer {
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  height: 100%;
+}
+.headingMain {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.subHeading {
+  color: grey;
+  margin-left: 10px;
+}
+
+.cardArea {
+  width: 70%;
+}
